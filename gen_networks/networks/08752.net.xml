@@ -1,0 +1,2076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-02-19 12:55:34 by Eclipse SUMO netconvert Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="nod.xml"/>
+        <edge-files value="edge_xmls/08752.xml"/>
+    </input>
+
+    <output>
+        <output-file value="networks/08752.net.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-682.00,4368.00" convBoundary="0.00,0.00,2498.00,3881.00" origBoundary="682.00,-4368.00,3180.00,-487.00" projParameter="!"/>
+
+    <edge id=":antrim_0" function="internal">
+        <lane id=":antrim_0_0" index="0" speed="7.32" length="22.40" shape="2277.97,3454.63 2277.53,3460.49 2273.76,3464.39 2268.51,3465.30 2263.62,3462.24"/>
+    </edge>
+    <edge id=":antrim_1" function="internal">
+        <lane id=":antrim_1_0" index="0" speed="6.59" length="18.48" shape="2277.97,3454.63 2277.28,3460.29 2275.17,3463.12 2271.63,3463.13 2266.67,3460.32"/>
+    </edge>
+    <edge id=":antrim_2" function="internal">
+        <lane id=":antrim_2_0" index="0" speed="10.00" length="33.96" shape="2278.60,3491.45 2279.55,3488.53 2277.37,3482.69 2272.06,3473.92 2263.62,3462.24"/>
+    </edge>
+    <edge id=":antrim_3" function="internal">
+        <lane id=":antrim_3_0" index="0" speed="10.00" length="34.44" shape="2278.60,3491.45 2279.80,3488.37 2278.21,3482.16 2273.83,3472.81 2266.67,3460.32"/>
+    </edge>
+    <edge id=":athlone_0" function="internal">
+        <lane id=":athlone_0_0" index="0" speed="6.53" length="11.14" shape="1255.90,1969.45 1254.93,1967.05 1253.12,1965.91 1250.47,1966.01 1246.97,1967.37"/>
+    </edge>
+    <edge id=":athlone_1" function="internal">
+        <lane id=":athlone_1_0" index="0" speed="10.00" length="17.08" shape="1255.90,1969.45 1255.53,1965.12 1256.03,1960.98 1257.38,1957.02 1259.59,1953.24"/>
+    </edge>
+    <edge id=":athlone_2" function="internal">
+        <lane id=":athlone_2_0" index="0" speed="8.05" length="14.88" shape="1255.90,1969.45 1255.66,1965.08 1256.72,1961.80 1259.08,1959.60 1262.74,1958.47"/>
+    </edge>
+    <edge id=":belfast_0" function="internal">
+        <lane id=":belfast_0_0" index="0" speed="3.45" length="3.78" shape="2481.80,3335.08 2482.66,3336.20 2483.01,3336.54 2482.86,3336.10 2482.21,3334.86"/>
+    </edge>
+    <edge id=":belfast_1" function="internal">
+        <lane id=":belfast_1_0" index="0" speed="6.89" length="20.19" shape="2481.80,3335.08 2486.38,3340.74 2488.76,3342.16 2488.95,3339.36 2486.96,3332.32"/>
+    </edge>
+    <edge id=":belfast_2" function="internal">
+        <lane id=":belfast_2_0" index="0" speed="7.40" length="21.65" shape="2481.80,3335.08 2487.80,3342.63 2491.88,3346.22 2494.04,3345.82 2494.27,3341.46"/>
+    </edge>
+    <edge id=":belfast_3" function="internal">
+        <lane id=":belfast_3_0" index="0" speed="10.00" length="33.84" shape="2481.80,3335.08 2488.60,3345.05 2493.16,3353.77 2494.36,3360.47 2491.08,3364.40"/>
+    </edge>
+    <edge id=":belfast_4" function="internal">
+        <lane id=":belfast_4_0" index="0" speed="7.27" length="21.88" shape="2481.80,3335.08 2484.89,3341.32 2485.95,3347.61 2484.58,3351.67 2480.36,3351.21"/>
+    </edge>
+    <edge id=":belfast_5" function="internal">
+        <lane id=":belfast_5_0" index="0" speed="6.81" length="19.02" shape="2483.37,3346.27 2486.78,3348.34 2487.73,3347.13 2486.20,3342.63 2482.21,3334.86"/>
+    </edge>
+    <edge id=":belfast_6" function="internal">
+        <lane id=":belfast_6_0" index="0" speed="7.71" length="23.10" shape="2483.37,3346.27 2487.86,3348.80 2489.95,3347.32 2489.65,3341.82 2486.96,3332.32"/>
+    </edge>
+    <edge id=":belfast_7" function="internal">
+        <lane id=":belfast_7_0" index="0" speed="7.41" length="19.26" shape="2483.37,3346.27 2488.78,3349.74 2492.40,3350.10 2494.23,3347.34 2494.27,3341.46"/>
+    </edge>
+    <edge id=":belfast_8" function="internal">
+        <lane id=":belfast_8_0" index="0" speed="8.74" length="24.04" shape="2483.37,3346.27 2489.36,3351.52 2493.58,3356.67 2494.62,3361.15 2491.08,3364.40"/>
+    </edge>
+    <edge id=":belfast_9" function="internal">
+        <lane id=":belfast_9_0" index="0" speed="4.62" length="8.45" shape="2483.37,3346.27 2484.47,3348.63 2484.33,3350.24 2482.96,3351.10 2480.36,3351.21"/>
+    </edge>
+    <edge id=":bray_0" function="internal">
+        <lane id=":bray_0_0" index="0" speed="9.16" length="18.80" shape="2437.60,1655.19 2441.90,1658.06 2444.26,1661.60 2444.69,1665.83 2443.20,1670.73"/>
+    </edge>
+    <edge id=":bray_1" function="internal">
+        <lane id=":bray_1_0" index="0" speed="8.85" length="17.71" shape="2437.60,1655.19 2440.87,1657.91 2443.07,1661.97 2443.90,1666.50 2443.04,1670.65"/>
+    </edge>
+    <edge id=":bray_2" function="internal">
+        <lane id=":bray_2_0" index="0" speed="3.95" length="5.73" shape="2437.60,1655.19 2438.60,1656.65 2438.69,1657.74 2437.88,1658.47 2436.15,1658.83"/>
+    </edge>
+    <edge id=":bray_3" function="internal">
+        <lane id=":bray_3_0" index="0" speed="5.76" length="9.90" shape="2436.21,1665.88 2438.61,1663.75 2439.41,1661.87 2438.59,1660.23 2436.15,1658.83"/>
+    </edge>
+    <edge id=":bray_4" function="internal">
+        <lane id=":bray_4_0" index="0" speed="5.24" length="9.89" shape="2436.21,1665.88 2438.45,1665.59 2441.03,1666.73 2442.94,1668.66 2443.20,1670.73"/>
+    </edge>
+    <edge id=":bray_5" function="internal">
+        <lane id=":bray_5_0" index="0" speed="5.18" length="9.69" shape="2436.21,1665.88 2438.41,1665.60 2440.94,1666.73 2442.81,1668.63 2443.04,1670.65"/>
+    </edge>
+    <edge id=":bray_6" function="internal">
+        <lane id=":bray_6_0" index="0" speed="7.40" length="12.88" shape="2440.01,1669.17 2441.18,1665.77 2440.93,1662.92 2439.25,1660.61 2436.15,1658.83"/>
+    </edge>
+    <edge id=":bray_7" function="internal">
+        <lane id=":bray_7_0" index="0" speed="3.36" length="3.55" shape="2440.01,1669.17 2443.20,1670.73"/>
+    </edge>
+    <edge id=":bray_8" function="internal">
+        <lane id=":bray_8_0" index="0" speed="3.72" length="4.92" shape="2440.01,1669.17 2441.33,1668.40 2442.27,1668.40 2442.84,1669.15 2443.04,1670.65"/>
+    </edge>
+    <edge id=":carlow_0" function="internal">
+        <lane id=":carlow_0_0" index="0" speed="2.72" length="1.44" shape="1877.37,1158.96 1877.57,1158.47 1877.59,1158.28 1877.43,1158.38 1877.09,1158.79"/>
+    </edge>
+    <edge id=":carlow_1" function="internal">
+        <lane id=":carlow_1_0" index="0" speed="10.00" length="19.35" shape="1877.37,1158.96 1879.50,1153.10 1880.18,1148.12 1879.41,1144.02 1877.19,1140.79"/>
+    </edge>
+    <edge id=":carlow_2" function="internal">
+        <lane id=":carlow_2_0" index="0" speed="10.00" length="19.64" shape="1877.37,1158.96 1879.53,1153.06 1880.29,1147.99 1879.63,1143.77 1877.57,1140.39"/>
+    </edge>
+    <edge id=":carlow_3" function="internal">
+        <lane id=":carlow_3_0" index="0" speed="10.00" length="21.71" shape="1877.37,1158.96 1879.13,1154.46 1880.95,1148.65 1882.29,1142.75 1882.61,1138.02"/>
+    </edge>
+    <edge id=":carlow_4" function="internal">
+        <lane id=":carlow_4_0" index="0" speed="5.27" length="9.98" shape="1881.45,1160.32 1881.62,1156.98 1880.95,1155.61 1879.44,1156.21 1877.09,1158.79"/>
+    </edge>
+    <edge id=":carlow_5" function="internal">
+        <lane id=":carlow_5_0" index="0" speed="10.00" length="20.71" shape="1881.45,1160.32 1881.88,1153.96 1881.31,1148.58 1879.75,1144.19 1877.19,1140.79"/>
+    </edge>
+    <edge id=":carlow_6" function="internal">
+        <lane id=":carlow_6_0" index="0" speed="10.00" length="20.94" shape="1881.45,1160.32 1881.91,1153.91 1881.41,1148.45 1879.97,1143.94 1877.57,1140.39"/>
+    </edge>
+    <edge id=":carlow_7" function="internal">
+        <lane id=":carlow_7_0" index="0" speed="10.00" length="22.36" shape="1881.45,1160.32 1881.99,1155.45 1882.47,1149.18 1882.73,1142.90 1882.61,1138.02"/>
+    </edge>
+    <edge id=":carrick_0" function="internal">
+        <lane id=":carrick_0_0" index="0" speed="6.58" length="12.44" shape="1131.54,2585.97 1128.20,2583.58 1126.75,2581.22 1127.16,2578.91 1129.45,2576.64"/>
+    </edge>
+    <edge id=":carrick_1" function="internal">
+        <lane id=":carrick_1_0" index="0" speed="4.55" length="7.81" shape="1130.52,2578.21 1132.34,2575.93 1132.77,2574.91 1131.81,2575.15 1129.45,2576.64"/>
+    </edge>
+    <edge id=":castlebar_0" function="internal">
+        <lane id=":castlebar_0_0" index="0" speed="10.00" length="30.98" shape="314.19,2460.70 306.05,2452.93 300.41,2446.25 297.25,2440.66 296.58,2436.14"/>
+    </edge>
+    <edge id=":castlebar_1" function="internal">
+        <lane id=":castlebar_1_0" index="0" speed="10.00" length="24.71" shape="314.19,2460.70 309.73,2455.62 305.93,2449.26 303.89,2443.23 304.74,2439.14"/>
+    </edge>
+    <edge id=":castlebar_2" function="internal">
+        <lane id=":castlebar_2_0" index="0" speed="7.78" length="20.74" shape="314.19,2460.70 309.92,2456.29 305.63,2450.85 302.95,2446.14 303.50,2443.96"/>
+    </edge>
+    <edge id=":castlebar_3" function="internal">
+        <lane id=":castlebar_3_0" index="0" speed="10.00" length="28.58" shape="316.55,2456.60 308.45,2452.99 302.95,2448.46 300.05,2442.99 299.75,2436.60"/>
+    </edge>
+    <edge id=":castlebar_4" function="internal">
+        <lane id=":castlebar_4_0" index="0" speed="8.78" length="23.54" shape="317.57,2453.57 310.37,2450.76 304.92,2447.43 302.59,2443.57 304.74,2439.14"/>
+    </edge>
+    <edge id=":castlebar_5" function="internal">
+        <lane id=":castlebar_5_0" index="0" speed="6.84" length="18.75" shape="317.57,2453.57 312.35,2451.40 306.51,2448.33 302.68,2445.48 303.50,2443.96"/>
+    </edge>
+    <edge id=":castlebar_6" function="internal">
+        <lane id=":castlebar_6_0" index="0" speed="4.10" length="5.73" shape="304.04,2445.74 305.82,2444.71 306.32,2444.07 305.54,2443.82 303.50,2443.96"/>
+    </edge>
+    <edge id=":castlebar_7" function="internal">
+        <lane id=":castlebar_7_0" index="0" speed="6.07" length="11.35" shape="304.04,2445.74 302.04,2445.43 300.59,2442.99 299.79,2439.65 299.75,2436.60"/>
+    </edge>
+    <edge id=":castlebar_8" function="internal">
+        <lane id=":castlebar_8_0" index="0" speed="5.01" length="9.70" shape="304.04,2445.74 301.74,2443.83 301.09,2442.09 302.09,2440.53 304.74,2439.14"/>
+    </edge>
+    <edge id=":cavan_0" function="internal">
+        <lane id=":cavan_0_0" index="0" speed="2.77" length="1.65" shape="1686.62,2604.41 1686.63,2605.02 1686.67,2605.23 1686.74,2605.03 1686.83,2604.43"/>
+    </edge>
+    <edge id=":cavan_1" function="internal">
+        <lane id=":cavan_1_0" index="0" speed="10.00" length="26.07" shape="1686.62,2604.41 1686.57,2630.48"/>
+    </edge>
+    <edge id=":cavan_2" function="internal">
+        <lane id=":cavan_2_0" index="0" speed="5.98" length="14.80" shape="1682.84,2604.58 1683.87,2609.83 1684.88,2611.55 1685.87,2609.75 1686.83,2604.43"/>
+    </edge>
+    <edge id=":cavan_3" function="internal">
+        <lane id=":cavan_3_0" index="0" speed="10.00" length="26.19" shape="1682.84,2604.58 1683.78,2610.01 1685.09,2617.52 1686.22,2625.03 1686.57,2630.48"/>
+    </edge>
+    <edge id=":cavan_4" function="internal">
+        <lane id=":cavan_4_0" index="0" speed="7.63" length="20.38" shape="1680.32,2621.46 1682.08,2622.11 1683.75,2619.49 1685.33,2613.59 1686.83,2604.43"/>
+    </edge>
+    <edge id=":cavan_5" function="internal">
+        <lane id=":cavan_5_0" index="0" speed="10.00" length="11.44" shape="1680.32,2621.46 1682.64,2623.83 1684.72,2625.57 1686.16,2627.52 1686.57,2630.48"/>
+    </edge>
+    <edge id=":cavan_6" function="internal">
+        <lane id=":cavan_6_0" index="0" speed="10.00" length="26.10" shape="1683.38,2630.29 1686.83,2604.43"/>
+    </edge>
+    <edge id=":cavan_7" function="internal">
+        <lane id=":cavan_7_0" index="0" speed="3.65" length="4.67" shape="1683.38,2630.29 1684.25,2629.14 1685.07,2628.79 1685.85,2629.24 1686.57,2630.48"/>
+    </edge>
+    <edge id=":clonmel_0" function="internal">
+        <lane id=":clonmel_0_0" index="0" speed="9.38" length="35.14" shape="1393.61,622.37 1391.25,621.66 1390.39,626.72 1391.03,637.53 1393.17,654.11"/>
+    </edge>
+    <edge id=":clonmel_1" function="internal">
+        <lane id=":clonmel_1_0" index="0" speed="9.66" length="36.16" shape="1393.61,622.37 1390.86,621.48 1389.28,626.54 1388.89,637.55 1389.68,654.49"/>
+    </edge>
+    <edge id=":clonmel_2" function="internal">
+        <lane id=":clonmel_2_0" index="0" speed="6.92" length="15.42" shape="1393.61,622.37 1390.07,619.19 1387.19,618.58 1384.96,620.52 1383.38,625.02"/>
+    </edge>
+    <edge id=":clonmel_3" function="internal">
+        <lane id=":clonmel_3_0" index="0" speed="10.00" length="46.23" shape="1380.42,611.10 1383.94,613.01 1387.23,622.17 1390.31,636.54 1393.17,654.11"/>
+    </edge>
+    <edge id=":clonmel_4" function="internal">
+        <lane id=":clonmel_4_0" index="0" speed="10.00" length="45.82" shape="1380.42,611.10 1383.73,613.03 1386.28,622.34 1388.22,636.87 1389.68,654.49"/>
+    </edge>
+    <edge id=":clonmel_5" function="internal">
+        <lane id=":clonmel_5_0" index="0" speed="7.22" length="18.26" shape="1380.42,611.10 1383.22,610.25 1384.65,612.28 1384.70,617.21 1383.38,625.02"/>
+    </edge>
+    <edge id=":cork_0" function="internal">
+        <lane id=":cork_0_0" index="0" speed="5.75" length="14.27" shape="832.98,43.94 832.98,40.34 835.45,37.80 838.92,37.13 841.92,39.10"/>
+    </edge>
+    <edge id=":cork_1" function="internal">
+        <lane id=":cork_1_0" index="0" speed="3.65" length="4.67" shape="832.98,43.94 833.22,42.51 833.79,41.82 834.68,41.86 835.90,42.62"/>
+    </edge>
+    <edge id=":cork_2" function="internal">
+        <lane id=":cork_2_0" index="0" speed="7.53" length="26.02" shape="839.23,40.83 833.82,32.81 831.46,30.44 832.16,33.71 835.90,42.62"/>
+    </edge>
+    <edge id=":cork_3" function="internal">
+        <lane id=":cork_3_0" index="0" speed="3.65" length="4.67" shape="839.23,40.83 839.25,39.38 839.71,38.62 840.60,38.52 841.92,39.10"/>
+    </edge>
+    <edge id=":cork_4" function="internal">
+        <lane id=":cork_4_0" index="0" speed="7.62" length="26.36" shape="840.52,29.67 835.09,24.35 833.51,24.15 835.79,29.07 841.92,39.10"/>
+    </edge>
+    <edge id=":cork_5" function="internal">
+        <lane id=":cork_5_0" index="0" speed="9.02" length="35.70" shape="840.52,29.67 832.69,22.41 829.31,22.14 830.38,28.88 835.90,42.62"/>
+    </edge>
+    <edge id=":craigavon_0" function="internal">
+        <lane id=":craigavon_0_0" index="0" speed="8.73" length="26.52" shape="2149.36,3149.22 2148.55,3154.80 2143.74,3155.84 2136.65,3153.75 2128.97,3149.95"/>
+    </edge>
+    <edge id=":craigavon_1" function="internal">
+        <lane id=":craigavon_1_0" index="0" speed="7.41" length="22.10" shape="2149.36,3149.22 2148.59,3153.03 2144.60,3152.06 2139.17,3148.06 2134.07,3142.75"/>
+    </edge>
+    <edge id=":craigavon_2" function="internal">
+        <lane id=":craigavon_2_0" index="0" speed="6.18" length="15.55" shape="2136.02,3141.18 2137.40,3144.99 2136.06,3148.50 2132.94,3150.54 2128.97,3149.95"/>
+    </edge>
+    <edge id=":craigavon_3" function="internal">
+        <lane id=":craigavon_3_0" index="0" speed="3.38" length="3.65" shape="2136.02,3141.18 2136.12,3142.30 2135.83,3142.94 2135.15,3143.09 2134.07,3142.75"/>
+    </edge>
+    <edge id=":craigavon_4" function="internal">
+        <lane id=":craigavon_4_0" index="0" speed="5.95" length="14.40" shape="2131.16,3146.10 2135.66,3148.64 2137.64,3148.93 2137.11,3146.96 2134.07,3142.75"/>
+    </edge>
+    <edge id=":craigavon_5" function="internal">
+        <lane id=":craigavon_5_0" index="0" speed="4.12" length="6.46" shape="2131.16,3146.10 2132.06,3147.89 2131.99,3149.12 2130.96,3149.81 2128.97,3149.95"/>
+    </edge>
+    <edge id=":derry_0" function="internal">
+        <lane id=":derry_0_0" index="0" speed="8.00" length="23.51" shape="1622.20,3853.41 1619.02,3863.67 1617.78,3870.40 1618.47,3873.61 1621.09,3873.29"/>
+    </edge>
+    <edge id=":derry_1" function="internal">
+        <lane id=":derry_1_0" index="0" speed="8.11" length="29.07" shape="1622.20,3853.41 1618.88,3856.90 1615.45,3852.58 1612.88,3843.89 1612.16,3834.24"/>
+    </edge>
+    <edge id=":derry_2" function="internal">
+        <lane id=":derry_2_0" index="0" speed="7.43" length="25.47" shape="1622.20,3853.41 1619.95,3856.16 1618.55,3851.63 1618.20,3843.27 1619.13,3834.51"/>
+    </edge>
+    <edge id=":derry_3" function="internal">
+        <lane id=":derry_3_0" index="0" speed="10.00" length="40.79" shape="1622.26,3835.17 1618.83,3853.54 1617.49,3866.02 1618.24,3872.60 1621.09,3873.29"/>
+    </edge>
+    <edge id=":derry_4" function="internal">
+        <lane id=":derry_4_0" index="0" speed="5.75" length="14.24" shape="1622.26,3835.17 1620.15,3838.14 1616.65,3838.88 1613.44,3837.53 1612.16,3834.24"/>
+    </edge>
+    <edge id=":derry_5" function="internal">
+        <lane id=":derry_5_0" index="0" speed="3.65" length="4.67" shape="1622.26,3835.17 1621.23,3836.18 1620.37,3836.41 1619.67,3835.85 1619.13,3834.51"/>
+    </edge>
+    <edge id=":derry_6" function="internal">
+        <lane id=":derry_6_0" index="0" speed="7.51" length="25.81" shape="1615.37,3834.15 1615.05,3843.70 1615.56,3846.94 1616.92,3843.88 1619.13,3834.51"/>
+    </edge>
+    <edge id=":derry_7" function="internal">
+        <lane id=":derry_7_0" index="0" speed="10.00" length="42.40" shape="1615.37,3834.15 1614.76,3853.08 1615.50,3865.92 1617.61,3872.66 1621.09,3873.29"/>
+    </edge>
+    <edge id=":derry_8" function="internal">
+        <lane id=":derry_8_0" index="0" speed="3.65" length="4.69" shape="1615.37,3834.15 1614.60,3835.37 1613.81,3835.80 1613.00,3835.42 1612.16,3834.24"/>
+    </edge>
+    <edge id=":derry_9" function="internal">
+        <lane id=":derry_9_0" index="0" speed="6.95" length="21.96" shape="1609.38,3834.31 1610.11,3842.44 1610.82,3845.13 1611.51,3842.40 1612.16,3834.24"/>
+    </edge>
+    <edge id=":derry_10" function="internal">
+        <lane id=":derry_10_0" index="0" speed="9.06" length="36.78" shape="1609.38,3834.31 1610.90,3847.48 1613.03,3851.91 1615.77,3847.58 1619.13,3834.51"/>
+    </edge>
+    <edge id=":derry_11" function="internal">
+        <lane id=":derry_11_0" index="0" speed="10.00" length="43.56" shape="1609.38,3834.31 1611.25,3853.25 1613.83,3866.06 1617.10,3872.74 1621.09,3873.29"/>
+    </edge>
+    <edge id=":dublin_0" function="internal">
+        <lane id=":dublin_0_0" index="0" speed="5.63" length="12.10" shape="2322.47,1835.20 2321.69,1831.04 2320.62,1829.57 2319.26,1830.78 2317.61,1834.67"/>
+    </edge>
+    <edge id=":dublin_1" function="internal">
+        <lane id=":dublin_1_0" index="0" speed="10.00" length="31.75" shape="2322.47,1835.20 2320.32,1827.86 2315.80,1822.49 2308.89,1819.10 2299.61,1817.68"/>
+    </edge>
+    <edge id=":dublin_2" function="internal">
+        <lane id=":dublin_2_0" index="0" speed="10.00" length="34.06" shape="2322.47,1835.20 2320.37,1827.35 2316.04,1820.80 2309.46,1815.55 2300.64,1811.60"/>
+    </edge>
+    <edge id=":dublin_3" function="internal">
+        <lane id=":dublin_3_0" index="0" speed="10.00" length="43.23" shape="2322.47,1835.20 2320.00,1826.80 2314.56,1818.80 2306.16,1811.19 2294.78,1803.98"/>
+    </edge>
+    <edge id=":dublin_4" function="internal">
+        <lane id=":dublin_4_0" index="0" speed="10.00" length="44.02" shape="2322.47,1835.20 2320.12,1826.56 2315.05,1817.96 2307.27,1809.40 2296.77,1800.88"/>
+    </edge>
+    <edge id=":dublin_5" function="internal">
+        <lane id=":dublin_5_0" index="0" speed="3.49" length="3.92" shape="2296.48,1801.26 2297.79,1801.94 2298.27,1802.10 2297.93,1801.75 2296.77,1800.88"/>
+    </edge>
+    <edge id=":dublin_6" function="internal">
+        <lane id=":dublin_6_0" index="0" speed="10.00" length="43.13" shape="2296.48,1801.26 2308.10,1808.97 2315.50,1817.10 2318.67,1825.67 2317.61,1834.67"/>
+    </edge>
+    <edge id=":dublin_7" function="internal">
+        <lane id=":dublin_7_0" index="0" speed="6.95" length="19.30" shape="2296.48,1801.26 2299.82,1804.99 2301.97,1810.56 2302.15,1815.59 2299.61,1817.68"/>
+    </edge>
+    <edge id=":dublin_8" function="internal">
+        <lane id=":dublin_8_0" index="0" speed="5.94" length="15.14" shape="2296.48,1801.26 2300.25,1804.40 2302.80,1808.27 2303.23,1811.22 2300.64,1811.60"/>
+    </edge>
+    <edge id=":dublin_9" function="internal">
+        <lane id=":dublin_9_0" index="0" speed="3.65" length="4.68" shape="2296.48,1801.26 2297.08,1802.58 2296.99,1803.47 2296.23,1803.94 2294.78,1803.98"/>
+    </edge>
+    <edge id=":dublin_10" function="internal">
+        <lane id=":dublin_10_0" index="0" speed="3.59" length="4.18" shape="2299.70,1818.40 2301.21,1818.15 2301.70,1817.95 2301.16,1817.79 2299.61,1817.68"/>
+    </edge>
+    <edge id=":dublin_11" function="internal">
+        <lane id=":dublin_11_0" index="0" speed="6.50" length="16.68" shape="2299.70,1818.40 2305.47,1817.20 2307.55,1815.67 2305.94,1813.80 2300.64,1811.60"/>
+    </edge>
+    <edge id=":dublin_12" function="internal">
+        <lane id=":dublin_12_0" index="0" speed="8.17" length="25.44" shape="2299.70,1818.40 2305.86,1816.62 2307.10,1813.63 2303.40,1809.41 2294.78,1803.98"/>
+    </edge>
+    <edge id=":dublin_13" function="internal">
+        <lane id=":dublin_13_0" index="0" speed="8.69" length="27.46" shape="2299.70,1818.40 2306.30,1816.39 2308.02,1812.80 2304.84,1807.63 2296.77,1800.88"/>
+    </edge>
+    <edge id=":dublin_14" function="internal">
+        <lane id=":dublin_14_0" index="0" speed="9.39" length="27.06" shape="2299.70,1818.40 2306.24,1819.41 2312.64,1823.27 2317.04,1828.76 2317.61,1834.67"/>
+    </edge>
+    <edge id=":dublin_15" function="internal">
+        <lane id=":dublin_15_0" index="0" speed="5.90" length="13.96" shape="2300.56,1822.19 2305.14,1820.42 2306.50,1819.08 2304.66,1818.17 2299.61,1817.68"/>
+    </edge>
+    <edge id=":dublin_16" function="internal">
+        <lane id=":dublin_16_0" index="0" speed="7.29" length="19.96" shape="2300.56,1822.19 2306.67,1819.57 2308.72,1816.94 2306.71,1814.28 2300.64,1811.60"/>
+    </edge>
+    <edge id=":dublin_17" function="internal">
+        <lane id=":dublin_17_0" index="0" speed="8.93" length="28.39" shape="2300.56,1822.19 2306.72,1818.96 2307.81,1814.85 2303.83,1809.86 2294.78,1803.98"/>
+    </edge>
+    <edge id=":dublin_18" function="internal">
+        <lane id=":dublin_18_0" index="0" speed="9.47" length="30.20" shape="2300.56,1822.19 2307.04,1818.71 2308.57,1813.99 2305.15,1808.05 2296.77,1800.88"/>
+    </edge>
+    <edge id=":dublin_19" function="internal">
+        <lane id=":dublin_19_0" index="0" speed="9.03" length="27.39" shape="2300.56,1822.19 2308.47,1821.07 2314.71,1822.92 2318.13,1827.53 2317.61,1834.67"/>
+    </edge>
+    <edge id=":dundalk_0" function="internal">
+        <lane id=":dundalk_0_0" index="0" speed="5.49" length="10.95" shape="2235.91,2617.47 2238.59,2619.99 2240.24,2620.41 2240.85,2618.74 2240.43,2614.98"/>
+    </edge>
+    <edge id=":dundalk_1" function="internal">
+        <lane id=":dundalk_1_0" index="0" speed="4.59" length="8.25" shape="2235.91,2617.47 2236.62,2619.91 2236.25,2621.45 2234.80,2622.07 2232.27,2621.78"/>
+    </edge>
+    <edge id=":ennis_0" function="internal">
+        <lane id=":ennis_0_0" index="0" speed="4.19" length="6.46" shape="487.45,1214.07 489.38,1215.53 490.17,1215.89 489.84,1215.16 488.36,1213.32"/>
+    </edge>
+    <edge id=":ennis_1" function="internal">
+        <lane id=":ennis_1_0" index="0" speed="10.00" length="45.27" shape="487.45,1214.07 485.25,1207.95 490.10,1200.22 500.13,1191.41 513.46,1182.05"/>
+    </edge>
+    <edge id=":ennis_2" function="internal">
+        <lane id=":ennis_2_0" index="0" speed="10.00" length="60.61" shape="487.45,1214.07 501.94,1202.24 513.38,1200.33 521.77,1208.34 527.12,1226.26"/>
+    </edge>
+    <edge id=":ennis_3" function="internal">
+        <lane id=":ennis_3_0" index="0" speed="7.22" length="24.01" shape="527.91,1223.58 519.42,1220.95 516.46,1220.52 519.02,1222.29 527.12,1226.26"/>
+    </edge>
+    <edge id=":ennis_4" function="internal">
+        <lane id=":ennis_4_0" index="0" speed="10.00" length="41.43" shape="527.91,1223.58 509.33,1217.59 496.54,1213.89 489.56,1212.47 488.36,1213.32"/>
+    </edge>
+    <edge id=":ennis_5" function="internal">
+        <lane id=":ennis_5_0" index="0" speed="10.00" length="57.18" shape="527.91,1223.58 513.00,1215.73 504.34,1204.97 503.85,1193.12 513.46,1182.05"/>
+    </edge>
+    <edge id=":ennis_6" function="internal">
+        <lane id=":ennis_6_0" index="0" speed="8.65" length="34.50" shape="528.98,1220.28 516.61,1217.49 512.17,1217.56 515.67,1220.49 527.12,1226.26"/>
+    </edge>
+    <edge id=":ennis_7" function="internal">
+        <lane id=":ennis_7_0" index="0" speed="10.00" length="42.08" shape="528.98,1220.28 509.76,1215.54 496.59,1212.81 489.46,1212.07 488.36,1213.32"/>
+    </edge>
+    <edge id=":ennis_8" function="internal">
+        <lane id=":ennis_8_0" index="0" speed="10.00" length="54.10" shape="528.98,1220.28 514.50,1213.66 505.72,1203.74 504.69,1192.53 513.46,1182.05"/>
+    </edge>
+    <edge id=":ennis_9" function="internal">
+        <lane id=":ennis_9_0" index="0" speed="10.00" length="57.36" shape="516.59,1186.89 504.83,1196.46 502.66,1206.22 510.09,1216.15 527.12,1226.26"/>
+    </edge>
+    <edge id=":ennis_10" function="internal">
+        <lane id=":ennis_10_0" index="0" speed="10.00" length="40.84" shape="516.59,1186.89 502.03,1195.87 492.48,1203.27 487.92,1209.09 488.36,1213.32"/>
+    </edge>
+    <edge id=":ennis_11" function="internal">
+        <lane id=":ennis_11_0" index="0" speed="4.57" length="8.42" shape="516.59,1186.89 513.99,1186.85 512.61,1186.03 512.43,1184.43 513.46,1182.05"/>
+    </edge>
+    <edge id=":ennis_12" function="internal">
+        <lane id=":ennis_12_0" index="0" speed="7.14" length="22.91" shape="511.08,1179.00 505.06,1184.98 503.45,1187.49 506.25,1186.51 513.46,1182.05"/>
+    </edge>
+    <edge id=":ennis_13" function="internal">
+        <lane id=":ennis_13_0" index="0" speed="10.00" length="63.19" shape="511.08,1179.00 501.48,1191.91 500.96,1204.09 509.50,1215.54 527.12,1226.26"/>
+    </edge>
+    <edge id=":ennis_14" function="internal">
+        <lane id=":ennis_14_0" index="0" speed="10.00" length="43.01" shape="511.08,1179.00 498.83,1191.31 490.96,1201.14 487.48,1208.48 488.36,1213.32"/>
+    </edge>
+    <edge id=":ennis_15" function="internal">
+        <lane id=":ennis_15_0" index="0" speed="10.00" length="44.02" shape="473.80,1193.82 478.77,1196.82 487.04,1195.86 498.60,1190.94 513.46,1182.05"/>
+    </edge>
+    <edge id=":ennis_16" function="internal">
+        <lane id=":ennis_16_0" index="0" speed="10.00" length="62.47" shape="473.80,1193.82 482.67,1200.35 499.80,1210.81 517.26,1220.89 527.12,1226.26"/>
+    </edge>
+    <edge id=":ennis_17" function="internal">
+        <lane id=":ennis_17_0" index="0" speed="10.00" length="24.35" shape="473.80,1193.82 476.79,1198.09 480.91,1203.71 485.11,1209.26 488.36,1213.32"/>
+    </edge>
+    <edge id=":ennis_18" function="internal">
+        <lane id=":ennis_18_0" index="0" speed="10.00" length="50.30" shape="474.14,1212.95 476.90,1208.94 484.37,1202.46 496.56,1193.49 513.46,1182.05"/>
+    </edge>
+    <edge id=":ennis_19" function="internal">
+        <lane id=":ennis_19_0" index="0" speed="10.00" length="53.72" shape="477.31,1213.41 481.95,1210.28 492.95,1212.24 508.58,1218.00 527.12,1226.26"/>
+    </edge>
+    <edge id=":ennis_20" function="internal">
+        <lane id=":ennis_20_0" index="0" speed="7.01" length="16.50" shape="477.31,1213.41 478.60,1209.23 480.88,1207.82 484.13,1209.19 488.36,1213.32"/>
+    </edge>
+    <edge id=":enniskillen_0" function="internal">
+        <lane id=":enniskillen_0_0" index="0" speed="7.16" length="11.85" shape="1462.38,3061.68 1458.53,3062.33 1455.63,3061.95 1453.68,3060.55 1452.67,3058.13"/>
+    </edge>
+    <edge id=":enniskillen_1" function="internal">
+        <lane id=":enniskillen_1_0" index="0" speed="6.35" length="17.88" shape="1455.23,3057.67 1452.94,3051.38 1451.75,3049.36 1451.66,3051.61 1452.67,3058.13"/>
+    </edge>
+    <edge id=":galway_0" function="internal">
+        <lane id=":galway_0_0" index="0" speed="7.03" length="22.80" shape="478.67,1747.90 485.88,1752.42 488.50,1753.64 486.53,1751.53 479.96,1746.11"/>
+    </edge>
+    <edge id=":galway_1" function="internal">
+        <lane id=":galway_1_0" index="0" speed="4.30" length="5.77" shape="480.34,1742.98 478.62,1743.11 477.98,1743.67 478.43,1744.67 479.96,1746.11"/>
+    </edge>
+    <edge id=":galway_2" function="internal">
+        <lane id=":galway_2_0" index="0" speed="6.33" length="10.49" shape="478.84,1737.67 476.99,1739.49 476.55,1741.50 477.55,1743.71 479.96,1746.11"/>
+    </edge>
+    <edge id=":kilkenny_0" function="internal">
+        <lane id=":kilkenny_0_0" index="0" speed="10.00" length="0.10" shape="1693.24,983.43 1693.20,983.44"/>
+    </edge>
+    <edge id=":kilkenny_1" function="internal">
+        <lane id=":kilkenny_1_0" index="0" speed="6.68" length="18.66" shape="1693.24,983.43 1690.77,977.23 1689.00,975.34 1687.94,977.77 1687.58,984.51"/>
+    </edge>
+    <edge id=":kilkenny_2" function="internal">
+        <lane id=":kilkenny_2_0" index="0" speed="7.90" length="21.99" shape="1693.24,983.43 1689.76,974.04 1686.86,968.17 1684.52,965.81 1682.77,966.97"/>
+    </edge>
+    <edge id=":kilkenny_3" function="internal">
+        <lane id=":kilkenny_3_0" index="0" speed="10.00" length="34.24" shape="1693.24,983.43 1690.90,977.07 1687.06,967.40 1682.90,957.91 1679.61,952.08"/>
+    </edge>
+    <edge id=":kilkenny_4" function="internal">
+        <lane id=":kilkenny_4_0" index="0" speed="10.00" length="33.78" shape="1693.24,983.43 1691.26,976.98 1688.55,967.04 1686.37,957.08 1685.97,950.56"/>
+    </edge>
+    <edge id=":kilkenny_5" function="internal">
+        <lane id=":kilkenny_5_0" index="0" speed="7.31" length="20.27" shape="1695.25,967.99 1692.64,966.60 1691.43,968.71 1691.61,974.32 1693.20,983.44"/>
+    </edge>
+    <edge id=":kilkenny_6" function="internal">
+        <lane id=":kilkenny_6_0" index="0" speed="8.13" length="23.20" shape="1695.25,967.99 1691.90,966.30 1689.51,968.49 1688.07,974.56 1687.58,984.51"/>
+    </edge>
+    <edge id=":kilkenny_7" function="internal">
+        <lane id=":kilkenny_7_0" index="0" speed="7.52" length="15.18" shape="1695.25,967.99 1691.17,964.80 1687.73,963.56 1684.93,964.28 1682.77,966.97"/>
+    </edge>
+    <edge id=":kilkenny_8" function="internal">
+        <lane id=":kilkenny_8_0" index="0" speed="10.00" length="22.32" shape="1695.25,967.99 1691.74,964.59 1687.30,960.16 1682.93,955.67 1679.61,952.08"/>
+    </edge>
+    <edge id=":kilkenny_9" function="internal">
+        <lane id=":kilkenny_9_0" index="0" speed="10.00" length="20.53" shape="1695.25,967.99 1690.54,962.98 1687.42,958.40 1685.89,954.26 1685.97,950.56"/>
+    </edge>
+    <edge id=":kilkenny_10" function="internal">
+        <lane id=":kilkenny_10_0" index="0" speed="10.00" length="32.44" shape="1689.07,951.35 1689.06,957.72 1690.29,967.38 1691.95,977.04 1693.20,983.44"/>
+    </edge>
+    <edge id=":kilkenny_11" function="internal">
+        <lane id=":kilkenny_11_0" index="0" speed="10.00" length="33.22" shape="1689.07,951.35 1688.33,957.87 1687.87,967.87 1687.65,977.90 1687.58,984.51"/>
+    </edge>
+    <edge id=":kilkenny_12" function="internal">
+        <lane id=":kilkenny_12_0" index="0" speed="10.00" length="16.87" shape="1689.07,951.35 1687.89,955.20 1686.31,959.30 1684.53,963.32 1682.77,966.97"/>
+    </edge>
+    <edge id=":kilkenny_13" function="internal">
+        <lane id=":kilkenny_13_0" index="0" speed="6.55" length="13.45" shape="1689.07,951.35 1687.63,954.77 1685.57,956.04 1682.90,955.14 1679.61,952.08"/>
+    </edge>
+    <edge id=":kilkenny_14" function="internal">
+        <lane id=":kilkenny_14_0" index="0" speed="3.65" length="4.67" shape="1689.07,951.35 1688.01,952.31 1687.13,952.51 1686.45,951.92 1685.97,950.56"/>
+    </edge>
+    <edge id=":letterkenny_0" function="internal">
+        <lane id=":letterkenny_0_0" index="0" speed="7.43" length="16.80" shape="1350.31,3806.05 1347.71,3806.11 1346.17,3803.86 1345.69,3799.30 1346.28,3792.44"/>
+    </edge>
+    <edge id=":letterkenny_1" function="internal">
+        <lane id=":letterkenny_1_0" index="0" speed="6.86" length="16.68" shape="1350.31,3806.05 1347.46,3806.38 1346.56,3804.40 1347.60,3800.12 1350.60,3793.53"/>
+    </edge>
+    <edge id=":letterkenny_2" function="internal">
+        <lane id=":letterkenny_2_0" index="0" speed="3.59" length="3.95" shape="1345.06,3792.47 1345.40,3793.85 1345.71,3794.31 1346.01,3793.84 1346.28,3792.44"/>
+    </edge>
+    <edge id=":letterkenny_3" function="internal">
+        <lane id=":letterkenny_3_0" index="0" speed="5.46" length="10.25" shape="1345.06,3792.47 1346.02,3795.78 1347.27,3797.06 1348.79,3796.31 1350.60,3793.53"/>
+    </edge>
+    <edge id=":limerick_0" function="internal">
+        <lane id=":limerick_0_0" index="0" speed="10.00" length="0.10" shape="750.95,969.86 751.02,969.84"/>
+    </edge>
+    <edge id=":limerick_1" function="internal">
+        <lane id=":limerick_1_0" index="0" speed="7.46" length="14.14" shape="750.95,969.86 747.93,965.59 745.14,963.12 742.60,962.46 740.31,963.61"/>
+    </edge>
+    <edge id=":limerick_2" function="internal">
+        <lane id=":limerick_2_0" index="0" speed="9.77" length="23.31" shape="750.95,969.86 747.18,962.46 745.78,956.56 746.74,952.15 750.07,949.23"/>
+    </edge>
+    <edge id=":limerick_3" function="internal">
+        <lane id=":limerick_3_0" index="0" speed="10.00" length="42.90" shape="750.95,969.86 750.14,963.61 758.07,964.45 770.70,969.64 784.03,976.46"/>
+    </edge>
+    <edge id=":limerick_4" function="internal">
+        <lane id=":limerick_4_0" index="0" speed="9.54" length="42.48" shape="750.95,969.86 749.32,964.62 755.70,969.01 766.08,978.77 776.41,989.64"/>
+    </edge>
+    <edge id=":limerick_5" function="internal">
+        <lane id=":limerick_5_0" index="0" speed="8.26" length="32.45" shape="750.95,969.86 760.68,967.47 766.65,969.18 768.86,974.99 767.32,984.88"/>
+    </edge>
+    <edge id=":limerick_6" function="internal">
+        <lane id=":limerick_6_0" index="0" speed="9.21" length="37.11" shape="782.43,979.23 770.79,973.74 765.91,973.65 767.78,978.95 776.41,989.64"/>
+    </edge>
+    <edge id=":limerick_7" function="internal">
+        <lane id=":limerick_7_0" index="0" speed="9.22" length="35.72" shape="782.43,979.23 769.51,973.06 762.68,971.94 761.96,975.88 767.32,984.88"/>
+    </edge>
+    <edge id=":limerick_8" function="internal">
+        <lane id=":limerick_8_0" index="0" speed="9.91" length="36.39" shape="782.43,979.23 767.49,971.57 757.27,967.45 751.78,966.87 751.02,969.84"/>
+    </edge>
+    <edge id=":limerick_9" function="internal">
+        <lane id=":limerick_9_0" index="0" speed="10.00" length="45.73" shape="782.43,979.23 765.85,970.65 753.31,965.19 744.79,962.84 740.31,963.61"/>
+    </edge>
+    <edge id=":limerick_10" function="internal">
+        <lane id=":limerick_10_0" index="0" speed="10.00" length="44.50" shape="782.43,979.23 767.95,970.94 756.30,963.07 749.97,956.50 751.46,952.11"/>
+    </edge>
+    <edge id=":limerick_11" function="internal">
+        <lane id=":limerick_11_0" index="0" speed="3.65" length="4.67" shape="782.43,979.23 781.79,977.94 781.84,977.05 782.59,976.55 784.03,976.46"/>
+    </edge>
+    <edge id=":longford_0" function="internal">
+        <lane id=":longford_0_0" index="0" speed="5.46" length="10.06" shape="1342.12,2315.97 1345.33,2315.24 1346.61,2314.06 1345.97,2312.44 1343.42,2310.38"/>
+    </edge>
+    <edge id=":longford_1" function="internal">
+        <lane id=":longford_1_0" index="0" speed="10.00" length="17.12" shape="1342.12,2315.97 1347.46,2314.95 1351.66,2313.35 1354.74,2311.15 1356.70,2308.37"/>
+    </edge>
+    <edge id=":longford_2" function="internal">
+        <lane id=":longford_2_0" index="0" speed="10.00" length="20.01" shape="1342.12,2315.97 1348.38,2315.65 1353.55,2316.36 1357.64,2318.10 1360.64,2320.87"/>
+    </edge>
+    <edge id=":longford_3" function="internal">
+        <lane id=":longford_3_0" index="0" speed="6.85" length="16.56" shape="1342.12,2315.97 1349.11,2315.49 1353.28,2316.10 1354.62,2317.80 1353.13,2320.61"/>
+    </edge>
+    <edge id=":monaghan_0" function="internal">
+        <lane id=":monaghan_0_0" index="0" speed="10.00" length="20.03" shape="1840.97,2964.87 1837.79,2963.74 1833.46,2963.47 1827.98,2964.09 1821.35,2965.58"/>
+    </edge>
+    <edge id=":monaghan_1" function="internal">
+        <lane id=":monaghan_1_0" index="0" speed="10.00" length="20.05" shape="1840.97,2964.87 1837.46,2963.50 1833.19,2962.76 1827.95,2961.92 1821.51,2960.21"/>
+        <lane id=":monaghan_1_1" index="1" speed="10.00" length="20.05" shape="1840.97,2964.87 1837.62,2963.03 1833.70,2961.25 1828.80,2959.36 1822.53,2957.18"/>
+    </edge>
+    <edge id=":monaghan_3" function="internal">
+        <lane id=":monaghan_3_0" index="0" speed="10.00" length="17.90" shape="1840.97,2964.87 1838.55,2962.33 1836.43,2958.24 1834.91,2953.43 1834.31,2948.73"/>
+    </edge>
+    <edge id=":monaghan_4" function="internal">
+        <lane id=":monaghan_4_0" index="0" speed="3.60" length="4.44" shape="1840.97,2964.87 1840.42,2963.62 1840.51,2962.78 1841.24,2962.34 1842.61,2962.31"/>
+    </edge>
+    <edge id=":monaghan_5" function="internal">
+        <lane id=":monaghan_5_0" index="0" speed="6.81" length="9.02" shape="1840.34,2954.51 1839.62,2956.83 1839.76,2958.91 1840.76,2960.73 1842.61,2962.31"/>
+    </edge>
+    <edge id=":monaghan_6" function="internal">
+        <lane id=":monaghan_6_0" index="0" speed="10.00" length="22.55" shape="1840.34,2954.51 1837.95,2957.77 1833.99,2960.70 1828.45,2963.30 1821.35,2965.58"/>
+    </edge>
+    <edge id=":monaghan_7" function="internal">
+        <lane id=":monaghan_7_0" index="0" speed="10.00" length="21.83" shape="1840.34,2954.51 1837.34,2958.76 1833.20,2961.12 1827.92,2961.61 1821.51,2960.21"/>
+    </edge>
+    <edge id=":monaghan_8" function="internal">
+        <lane id=":monaghan_8_0" index="0" speed="5.11" length="9.62" shape="1840.34,2954.51 1838.91,2955.06 1836.89,2953.61 1835.10,2951.16 1834.31,2948.73"/>
+    </edge>
+    <edge id=":monaghan_9" function="internal">
+        <lane id=":monaghan_9_0" index="0" speed="4.01" length="5.73" shape="1835.36,2948.62 1834.89,2946.56 1834.55,2945.89 1834.36,2946.61 1834.31,2948.73"/>
+    </edge>
+    <edge id=":monaghan_10" function="internal">
+        <lane id=":monaghan_10_0" index="0" speed="10.00" length="15.87" shape="1835.36,2948.62 1836.59,2953.38 1838.21,2957.24 1840.21,2960.22 1842.61,2962.31"/>
+    </edge>
+    <edge id=":monaghan_11" function="internal">
+        <lane id=":monaghan_11_0" index="0" speed="10.00" length="24.61" shape="1835.36,2948.62 1835.43,2954.38 1833.11,2959.13 1828.42,2962.86 1821.35,2965.58"/>
+    </edge>
+    <edge id=":monaghan_12" function="internal">
+        <lane id=":monaghan_12_0" index="0" speed="7.52" length="17.33" shape="1835.36,2948.62 1834.47,2952.32 1831.15,2955.40 1826.73,2957.24 1822.53,2957.18"/>
+    </edge>
+    <edge id=":monaghan_13" function="internal">
+        <lane id=":monaghan_13_0" index="0" speed="4.68" length="7.16" shape="1830.87,2950.46 1832.40,2952.10 1833.48,2952.36 1834.11,2951.24 1834.31,2948.73"/>
+    </edge>
+    <edge id=":monaghan_14" function="internal">
+        <lane id=":monaghan_14_0" index="0" speed="10.00" length="16.75" shape="1830.87,2950.46 1833.37,2953.62 1836.28,2956.88 1839.41,2959.89 1842.61,2962.31"/>
+    </edge>
+    <edge id=":monaghan_15" function="internal">
+        <lane id=":monaghan_15_0" index="0" speed="8.31" length="19.85" shape="1830.87,2950.46 1831.70,2954.62 1829.60,2959.23 1825.76,2963.24 1821.35,2965.58"/>
+    </edge>
+    <edge id=":monaghan_16" function="internal">
+        <lane id=":monaghan_16_0" index="0" speed="5.86" length="12.35" shape="1830.87,2950.46 1830.95,2952.88 1828.77,2955.32 1825.56,2957.01 1822.53,2957.18"/>
+    </edge>
+    <edge id=":naas_0" function="internal">
+        <lane id=":naas_0_0" index="0" speed="10.00" length="11.30" shape="2086.71,1615.92 2087.23,1619.03 2087.23,1621.48 2086.83,1623.94 2086.15,1627.06"/>
+    </edge>
+    <edge id=":naas_1" function="internal">
+        <lane id=":naas_1_0" index="0" speed="6.24" length="11.23" shape="2086.71,1615.92 2086.76,1618.52 2085.48,1620.04 2082.88,1620.48 2078.94,1619.83"/>
+    </edge>
+    <edge id=":naas_2" function="internal">
+        <lane id=":naas_2_0" index="0" speed="6.51" length="8.74" shape="2083.02,1626.41 2083.18,1624.03 2082.55,1622.14 2081.14,1620.74 2078.94,1619.83"/>
+    </edge>
+    <edge id=":naas_3" function="internal">
+        <lane id=":naas_3_0" index="0" speed="3.65" length="4.67" shape="2083.02,1626.41 2084.05,1625.40 2084.91,1625.17 2085.61,1625.72 2086.15,1627.06"/>
+    </edge>
+    <edge id=":navan_0" function="internal">
+        <lane id=":navan_0_0" index="0" speed="10.00" length="12.06" shape="2085.72,2196.70 2086.42,2199.03 2086.48,2201.75 2085.90,2204.88 2084.69,2208.41"/>
+    </edge>
+    <edge id=":navan_1" function="internal">
+        <lane id=":navan_1_0" index="0" speed="5.65" length="12.20" shape="2085.72,2196.70 2087.29,2200.67 2087.17,2202.50 2085.37,2202.17 2081.89,2199.70"/>
+    </edge>
+    <edge id=":omagh_0" function="internal">
+        <lane id=":omagh_0_0" index="0" speed="6.53" length="17.10" shape="1621.53,3341.18 1618.28,3344.47 1614.14,3345.13 1610.61,3343.34 1609.23,3339.24"/>
+    </edge>
+    <edge id=":omagh_1" function="internal">
+        <lane id=":omagh_1_0" index="0" speed="6.11" length="15.15" shape="1620.11,3340.57 1617.40,3343.60 1613.71,3344.31 1610.50,3342.81 1609.23,3339.24"/>
+    </edge>
+    <edge id=":omagh_2" function="internal">
+        <lane id=":omagh_2_0" index="0" speed="4.98" length="10.02" shape="1616.37,3339.65 1614.87,3341.78 1612.42,3342.39 1610.16,3341.53 1609.23,3339.24"/>
+    </edge>
+    <edge id=":omagh_3" function="internal">
+        <lane id=":omagh_3_0" index="0" speed="3.22" length="3.09" shape="1611.34,3339.37 1610.76,3340.13 1610.22,3340.36 1609.71,3340.07 1609.23,3339.24"/>
+    </edge>
+    <edge id=":omagh_4" function="internal">
+        <lane id=":omagh_4_0" index="0" speed="7.19" length="15.29" shape="1605.63,3353.11 1606.98,3352.86 1608.03,3350.47 1608.78,3345.93 1609.23,3339.24"/>
+    </edge>
+    <edge id=":portlaoise_0" function="internal">
+        <lane id=":portlaoise_0_0" index="0" speed="6.41" length="15.87" shape="1698.99,1372.29 1695.56,1370.45 1694.13,1371.29 1694.72,1374.82 1697.32,1381.04"/>
+    </edge>
+    <edge id=":portlaoise_1" function="internal">
+        <lane id=":portlaoise_1_0" index="0" speed="7.10" length="18.47" shape="1698.99,1372.29 1694.83,1370.16 1692.55,1371.12 1692.16,1375.16 1693.66,1382.28"/>
+    </edge>
+    <edge id=":portlaoise_2" function="internal">
+        <lane id=":portlaoise_2_0" index="0" speed="9.86" length="24.67" shape="1698.99,1372.29 1693.09,1369.32 1687.80,1369.33 1683.11,1372.31 1679.03,1378.26"/>
+    </edge>
+    <edge id=":portlaoise_3" function="internal">
+        <lane id=":portlaoise_3_0" index="0" speed="10.00" length="27.26" shape="1698.99,1372.29 1694.32,1369.09 1687.65,1364.73 1680.91,1360.48 1676.02,1357.63"/>
+    </edge>
+    <edge id=":portlaoise_4" function="internal">
+        <lane id=":portlaoise_4_0" index="0" speed="10.00" length="26.91" shape="1698.99,1372.29 1694.61,1368.76 1688.74,1363.54 1683.11,1358.07 1679.50,1353.82"/>
+    </edge>
+    <edge id=":portlaoise_5" function="internal">
+        <lane id=":portlaoise_5_0" index="0" speed="10.00" length="24.00" shape="1698.99,1372.29 1692.71,1366.98 1689.06,1361.96 1688.04,1357.23 1689.65,1352.78"/>
+    </edge>
+    <edge id=":portlaoise_6" function="internal">
+        <lane id=":portlaoise_6_0" index="0" speed="7.44" length="19.71" shape="1700.98,1368.63 1696.33,1367.66 1694.17,1369.41 1694.50,1373.87 1697.32,1381.04"/>
+    </edge>
+    <edge id=":portlaoise_7" function="internal">
+        <lane id=":portlaoise_7_0" index="0" speed="8.08" length="21.70" shape="1700.98,1368.63 1695.81,1367.63 1692.87,1369.56 1692.15,1374.45 1693.66,1382.28"/>
+    </edge>
+    <edge id=":portlaoise_8" function="internal">
+        <lane id=":portlaoise_8_0" index="0" speed="10.00" length="26.79" shape="1700.98,1368.63 1694.28,1367.13 1688.39,1368.24 1683.30,1371.95 1679.03,1378.26"/>
+    </edge>
+    <edge id=":portlaoise_9" function="internal">
+        <lane id=":portlaoise_9_0" index="0" speed="10.00" length="27.28" shape="1700.98,1368.63 1695.75,1366.46 1688.42,1363.31 1681.14,1360.06 1676.02,1357.63"/>
+    </edge>
+    <edge id=":portlaoise_10" function="internal">
+        <lane id=":portlaoise_10_0" index="0" speed="10.00" length="26.25" shape="1700.98,1368.63 1696.04,1366.14 1689.51,1362.12 1683.34,1357.65 1679.50,1353.82"/>
+    </edge>
+    <edge id=":portlaoise_11" function="internal">
+        <lane id=":portlaoise_11_0" index="0" speed="9.29" length="22.79" shape="1700.98,1368.63 1693.74,1365.06 1689.44,1361.23 1688.07,1357.14 1689.65,1352.78"/>
+    </edge>
+    <edge id=":portlaoise_12" function="internal">
+        <lane id=":portlaoise_12_0" index="0" speed="5.95" length="9.65" shape="1682.20,1352.09 1684.11,1354.39 1685.98,1355.27 1687.83,1354.73 1689.65,1352.78"/>
+    </edge>
+    <edge id=":portlaoise_13" function="internal">
+        <lane id=":portlaoise_13_0" index="0" speed="10.00" length="32.66" shape="1682.20,1352.09 1685.40,1357.76 1689.96,1366.45 1694.43,1375.21 1697.32,1381.04"/>
+    </edge>
+    <edge id=":portlaoise_14" function="internal">
+        <lane id=":portlaoise_14_0" index="0" speed="10.00" length="32.32" shape="1682.20,1352.09 1684.94,1357.91 1688.43,1366.96 1691.68,1376.12 1693.66,1382.28"/>
+    </edge>
+    <edge id=":portlaoise_15" function="internal">
+        <lane id=":portlaoise_15_0" index="0" speed="10.00" length="27.45" shape="1682.20,1352.09 1684.12,1357.03 1684.23,1363.04 1682.53,1370.12 1679.03,1378.26"/>
+    </edge>
+    <edge id=":portlaoise_16" function="internal">
+        <lane id=":portlaoise_16_0" index="0" speed="6.80" length="17.93" shape="1682.20,1352.09 1684.95,1357.34 1684.84,1360.02 1681.87,1360.11 1676.02,1357.63"/>
+    </edge>
+    <edge id=":portlaoise_17" function="internal">
+        <lane id=":portlaoise_17_0" index="0" speed="3.65" length="4.67" shape="1682.20,1352.09 1682.17,1353.53 1681.71,1354.30 1680.82,1354.40 1679.50,1353.82"/>
+    </edge>
+    <edge id=":portlaoise_18" function="internal">
+        <lane id=":portlaoise_18_0" index="0" speed="9.02" length="20.33" shape="1673.71,1375.41 1677.57,1369.11 1679.24,1364.04 1678.73,1360.22 1676.02,1357.63"/>
+    </edge>
+    <edge id=":portlaoise_19" function="internal">
+        <lane id=":portlaoise_19_0" index="0" speed="10.00" length="23.52" shape="1673.71,1375.41 1677.96,1368.63 1680.34,1362.78 1680.85,1357.84 1679.50,1353.82"/>
+    </edge>
+    <edge id=":portlaoise_20" function="internal">
+        <lane id=":portlaoise_20_0" index="0" speed="10.00" length="27.68" shape="1673.71,1375.41 1689.65,1352.78"/>
+    </edge>
+    <edge id=":portlaoise_21" function="internal">
+        <lane id=":portlaoise_21_0" index="0" speed="9.91" length="30.91" shape="1673.71,1375.41 1679.89,1369.95 1686.28,1369.55 1692.29,1373.48 1697.32,1381.04"/>
+    </edge>
+    <edge id=":portlaoise_22" function="internal">
+        <lane id=":portlaoise_22_0" index="0" speed="8.98" length="27.48" shape="1673.71,1375.41 1679.26,1370.87 1685.05,1371.04 1690.16,1375.10 1693.66,1382.28"/>
+    </edge>
+    <edge id=":portlaoise_23" function="internal">
+        <lane id=":portlaoise_23_0" index="0" speed="4.71" length="8.82" shape="1673.71,1375.41 1676.11,1374.12 1677.80,1374.17 1678.77,1375.55 1679.03,1378.26"/>
+    </edge>
+    <edge id=":portlaoise_24" function="internal">
+        <lane id=":portlaoise_24_0" index="0" speed="6.20" length="15.13" shape="1683.51,1384.27 1683.46,1377.88 1682.70,1374.75 1681.22,1374.88 1679.03,1378.26"/>
+    </edge>
+    <edge id=":portlaoise_25" function="internal">
+        <lane id=":portlaoise_25_0" index="0" speed="10.00" length="28.85" shape="1683.51,1384.27 1683.36,1374.23 1682.07,1366.45 1679.62,1360.91 1676.02,1357.63"/>
+    </edge>
+    <edge id=":portlaoise_26" function="internal">
+        <lane id=":portlaoise_26_0" index="0" speed="10.00" length="30.84" shape="1683.51,1384.27 1683.35,1377.99 1682.59,1368.75 1681.29,1359.65 1679.50,1353.82"/>
+    </edge>
+    <edge id=":portlaoise_27" function="internal">
+        <lane id=":portlaoise_27_0" index="0" speed="10.00" length="32.19" shape="1683.51,1384.27 1684.16,1377.82 1685.60,1368.20 1687.53,1358.74 1689.65,1352.78"/>
+    </edge>
+    <edge id=":portlaoise_28" function="internal">
+        <lane id=":portlaoise_28_0" index="0" speed="6.98" length="19.35" shape="1683.51,1384.27 1685.32,1379.44 1689.26,1377.04 1693.77,1377.44 1697.32,1381.04"/>
+    </edge>
+    <edge id=":portlaoise_29" function="internal">
+        <lane id=":portlaoise_29_0" index="0" speed="6.06" length="15.10" shape="1683.51,1384.27 1685.30,1379.96 1687.59,1378.20 1690.38,1378.97 1693.66,1382.28"/>
+    </edge>
+    <edge id=":roscommon_0" function="internal">
+        <lane id=":roscommon_0_0" index="0" speed="6.34" length="14.83" shape="1059.93,2210.67 1056.32,2215.85 1054.99,2219.14 1055.94,2220.56 1059.17,2220.10"/>
+    </edge>
+    <edge id=":roscommon_1" function="internal">
+        <lane id=":roscommon_1_0" index="0" speed="10.00" length="22.43" shape="1059.93,2210.67 1054.62,2217.76 1050.92,2223.28 1048.81,2227.24 1048.32,2229.63"/>
+    </edge>
+    <edge id=":roscommon_2" function="internal">
+        <lane id=":roscommon_2_0" index="0" speed="7.06" length="17.24" shape="1056.59,2208.56 1053.96,2214.81 1053.51,2218.82 1055.25,2220.58 1059.17,2220.10"/>
+    </edge>
+    <edge id=":roscommon_3" function="internal">
+        <lane id=":roscommon_3_0" index="0" speed="10.00" length="22.85" shape="1056.59,2208.56 1054.22,2213.04 1051.26,2218.93 1048.90,2224.89 1048.32,2229.63"/>
+    </edge>
+    <edge id=":sligo_0" function="internal">
+        <lane id=":sligo_0_0" index="0" speed="8.14" length="14.33" shape="884.89,2942.02 882.86,2946.77 882.09,2950.53 882.57,2953.31 884.31,2955.11"/>
+    </edge>
+    <edge id=":sligo_1" function="internal">
+        <lane id=":sligo_1_0" index="0" speed="8.59" length="19.73" shape="884.89,2942.02 880.94,2949.02 877.48,2953.45 874.51,2955.32 872.05,2954.64"/>
+    </edge>
+    <edge id=":sligo_2" function="internal">
+        <lane id=":sligo_2_0" index="0" speed="10.00" length="18.27" shape="880.97,2940.63 879.90,2947.16 879.84,2952.22 880.80,2955.80 882.77,2957.91"/>
+    </edge>
+    <edge id=":sligo_3" function="internal">
+        <lane id=":sligo_3_0" index="0" speed="7.87" length="19.04" shape="880.97,2940.63 878.92,2948.40 876.75,2953.32 874.46,2955.40 872.05,2954.64"/>
+    </edge>
+    <edge id=":tralee_0" function="internal">
+        <lane id=":tralee_0_0" index="0" speed="4.06" length="6.19" shape="25.91,522.67 27.33,524.50 27.86,525.08 27.49,524.40 26.23,522.46"/>
+    </edge>
+    <edge id=":tralee_1" function="internal">
+        <lane id=":tralee_1_0" index="0" speed="9.91" length="41.02" shape="25.91,522.67 18.05,511.17 12.11,499.78 11.03,492.36 17.78,492.76"/>
+    </edge>
+    <edge id=":tralee_2" function="internal">
+        <lane id=":tralee_2_0" index="0" speed="3.45" length="3.89" shape="25.91,522.67 28.89,520.17"/>
+    </edge>
+    <edge id=":tralee_3" function="internal">
+        <lane id=":tralee_3_0" index="0" speed="4.72" length="9.09" shape="26.90,522.01 24.73,519.39 23.89,518.59 24.39,519.61 26.23,522.46"/>
+    </edge>
+    <edge id=":tralee_4" function="internal">
+        <lane id=":tralee_4_0" index="0" speed="9.80" length="40.58" shape="26.90,522.01 18.82,510.81 12.59,499.65 11.23,492.36 17.78,492.76"/>
+    </edge>
+    <edge id=":tralee_5" function="internal">
+        <lane id=":tralee_5_0" index="0" speed="3.46" length="3.96" shape="26.90,522.01 26.71,520.81 26.97,520.10 27.70,519.88 28.89,520.17"/>
+    </edge>
+    <edge id=":tralee_6" function="internal">
+        <lane id=":tralee_6_0" index="0" speed="8.20" length="30.46" shape="33.11,515.29 24.31,508.58 20.67,507.16 22.20,511.02 28.89,520.17"/>
+    </edge>
+    <edge id=":tralee_7" function="internal">
+        <lane id=":tralee_7_0" index="0" speed="8.91" length="35.23" shape="33.11,515.29 23.01,507.79 18.49,506.48 19.56,511.37 26.23,522.46"/>
+    </edge>
+    <edge id=":tralee_8" function="internal">
+        <lane id=":tralee_8_0" index="0" speed="8.92" length="36.07" shape="33.11,515.29 23.86,506.79 15.94,497.96 12.77,492.17 17.78,492.76"/>
+    </edge>
+    <edge id=":tralee_9" function="internal">
+        <lane id=":tralee_9_0" index="0" speed="8.79" length="32.48" shape="16.14,496.18 13.07,495.67 14.17,499.50 19.44,507.66 28.89,520.17"/>
+    </edge>
+    <edge id=":tralee_10" function="internal">
+        <lane id=":tralee_10_0" index="0" speed="9.14" length="34.16" shape="16.14,496.18 12.51,495.61 12.98,499.80 17.55,508.75 26.23,522.46"/>
+    </edge>
+    <edge id=":tralee_11" function="internal">
+        <lane id=":tralee_11_0" index="0" speed="3.88" length="5.53" shape="16.14,496.18 15.27,494.71 15.25,493.65 16.09,493.00 17.78,492.76"/>
+    </edge>
+    <edge id=":tralee_12" function="internal">
+        <lane id=":tralee_12_0" index="0" speed="5.78" length="12.70" shape="17.32,487.17 13.36,487.62 12.12,488.70 13.59,490.42 17.78,492.76"/>
+    </edge>
+    <edge id=":tralee_13" function="internal">
+        <lane id=":tralee_13_0" index="0" speed="10.00" length="40.55" shape="17.32,487.17 12.76,489.36 13.17,495.59 18.54,505.86 28.89,520.17"/>
+    </edge>
+    <edge id=":tralee_14" function="internal">
+        <lane id=":tralee_14_0" index="0" speed="10.00" length="41.84" shape="17.32,487.17 12.49,489.51 12.36,496.17 16.94,507.15 26.23,522.46"/>
+    </edge>
+    <edge id=":tullamore_0" function="internal">
+        <lane id=":tullamore_0_0" index="0" speed="5.39" length="11.50" shape="1598.90,1744.31 1596.70,1740.79 1595.44,1739.81 1595.11,1741.37 1595.71,1745.48"/>
+    </edge>
+    <edge id=":tullamore_1" function="internal">
+        <lane id=":tullamore_1_0" index="0" speed="6.52" length="16.50" shape="1598.90,1744.31 1595.75,1739.55 1593.53,1738.27 1592.23,1740.46 1591.86,1746.14"/>
+    </edge>
+    <edge id=":tullamore_2" function="internal">
+        <lane id=":tullamore_2_0" index="0" speed="10.00" length="33.93" shape="1598.90,1744.31 1583.37,1714.15"/>
+    </edge>
+    <edge id=":tullamore_3" function="internal">
+        <lane id=":tullamore_3_0" index="0" speed="10.00" length="33.99" shape="1586.29,1712.84 1588.49,1719.17 1591.40,1729.03 1594.12,1738.95 1595.71,1745.48"/>
+    </edge>
+    <edge id=":tullamore_4" function="internal">
+        <lane id=":tullamore_4_0" index="0" speed="10.00" length="33.82" shape="1586.29,1712.84 1588.02,1719.26 1589.82,1729.32 1591.25,1739.47 1591.86,1746.14"/>
+    </edge>
+    <edge id=":tullamore_5" function="internal">
+        <lane id=":tullamore_5_0" index="0" speed="3.65" length="4.67" shape="1586.29,1712.84 1586.05,1714.26 1585.49,1714.95 1584.59,1714.91 1583.37,1714.15"/>
+    </edge>
+    <edge id=":tullamore_6" function="internal">
+        <lane id=":tullamore_6_0" index="0" speed="5.46" length="10.01" shape="1579.25,1718.21 1582.33,1719.27 1584.04,1718.95 1584.39,1717.24 1583.37,1714.15"/>
+    </edge>
+    <edge id=":tullamore_7" function="internal">
+        <lane id=":tullamore_7_0" index="0" speed="10.00" length="32.97" shape="1579.25,1718.21 1584.84,1722.04 1589.45,1727.87 1593.07,1735.68 1595.71,1745.48"/>
+    </edge>
+    <edge id=":tullamore_8" function="internal">
+        <lane id=":tullamore_8_0" index="0" speed="10.00" length="32.26" shape="1579.25,1718.21 1584.66,1722.12 1588.57,1728.07 1590.97,1736.08 1591.86,1746.14"/>
+    </edge>
+    <edge id=":waterford_0" function="internal">
+        <lane id=":waterford_0_0" index="0" speed="7.25" length="22.97" shape="1814.72,480.76 1814.42,469.65 1813.74,463.56 1812.68,462.49 1811.24,466.45"/>
+    </edge>
+    <edge id=":waterford_1" function="internal">
+        <lane id=":waterford_1_0" index="0" speed="10.00" length="41.87" shape="1814.72,480.76 1813.35,465.28 1809.56,455.83 1803.34,452.42 1794.68,455.05"/>
+    </edge>
+    <edge id=":waterford_2" function="internal">
+        <lane id=":waterford_2_0" index="0" speed="10.00" length="51.12" shape="1814.72,480.76 1813.02,464.12 1808.24,452.33 1800.37,445.37 1789.41,443.26"/>
+    </edge>
+    <edge id=":waterford_3" function="internal">
+        <lane id=":waterford_3_0" index="0" speed="6.19" length="16.45" shape="1814.72,480.76 1816.23,476.49 1819.71,473.95 1823.49,473.84 1825.85,476.84"/>
+    </edge>
+    <edge id=":waterford_4" function="internal">
+        <lane id=":waterford_4_0" index="0" speed="7.86" length="26.44" shape="1818.27,480.58 1816.72,468.34 1815.03,461.91 1813.20,461.28 1811.24,466.45"/>
+    </edge>
+    <edge id=":waterford_5" function="internal">
+        <lane id=":waterford_5_0" index="0" speed="10.00" length="43.35" shape="1818.27,480.58 1815.44,465.12 1810.56,455.72 1803.64,452.36 1794.68,455.05"/>
+    </edge>
+    <edge id=":waterford_6" function="internal">
+        <lane id=":waterford_6_0" index="0" speed="10.00" length="52.42" shape="1818.27,480.58 1815.07,464.02 1809.20,452.28 1800.64,445.36 1789.41,443.26"/>
+    </edge>
+    <edge id=":waterford_7" function="internal">
+        <lane id=":waterford_7_0" index="0" speed="5.30" length="11.83" shape="1818.27,480.58 1819.11,477.38 1821.49,475.24 1824.16,474.84 1825.85,476.84"/>
+    </edge>
+    <edge id=":waterford_8" function="internal">
+        <lane id=":waterford_8_0" index="0" speed="8.15" length="27.54" shape="1821.58,477.81 1818.77,466.04 1816.11,460.23 1813.60,460.36 1811.24,466.45"/>
+    </edge>
+    <edge id=":waterford_9" function="internal">
+        <lane id=":waterford_9_0" index="0" speed="10.00" length="43.05" shape="1821.58,477.81 1817.38,463.52 1811.50,454.96 1803.93,452.14 1794.68,455.05"/>
+    </edge>
+    <edge id=":waterford_10" function="internal">
+        <lane id=":waterford_10_0" index="0" speed="10.00" length="51.75" shape="1821.58,477.81 1816.99,462.46 1810.09,451.58 1800.90,445.18 1789.41,443.26"/>
+    </edge>
+    <edge id=":waterford_11" function="internal">
+        <lane id=":waterford_11_0" index="0" speed="4.09" length="6.39" shape="1821.58,477.81 1822.29,475.97 1823.23,475.19 1824.42,475.49 1825.85,476.84"/>
+    </edge>
+    <edge id=":waterford_12" function="internal">
+        <lane id=":waterford_12_0" index="0" speed="5.66" length="12.35" shape="1790.64,447.89 1794.39,445.76 1795.43,444.28 1793.77,443.44 1789.41,443.26"/>
+    </edge>
+    <edge id=":waterford_13" function="internal">
+        <lane id=":waterford_13_0" index="0" speed="10.00" length="55.20" shape="1790.64,447.89 1804.39,444.58 1814.17,449.23 1820.98,460.45 1825.85,476.84"/>
+    </edge>
+    <edge id=":waterford_14" function="internal">
+        <lane id=":waterford_14_0" index="0" speed="9.03" length="28.09" shape="1792.21,450.68 1798.60,450.52 1805.26,454.23 1810.16,460.11 1811.24,466.45"/>
+    </edge>
+    <edge id=":waterford_15" function="internal">
+        <lane id=":waterford_15_0" index="0" speed="4.33" length="7.33" shape="1792.21,450.68 1794.47,450.85 1795.63,451.63 1795.70,453.03 1794.68,455.05"/>
+    </edge>
+    <edge id=":waterford_16" function="internal">
+        <lane id=":waterford_16_0" index="0" speed="8.79" length="27.48" shape="1808.07,465.92 1809.28,457.12 1807.45,452.37 1802.59,451.68 1794.68,455.05"/>
+    </edge>
+    <edge id=":waterford_17" function="internal">
+        <lane id=":waterford_17_0" index="0" speed="10.00" length="36.08" shape="1808.07,465.92 1809.10,455.78 1806.34,448.62 1799.77,444.45 1789.41,443.26"/>
+    </edge>
+    <edge id=":waterford_18" function="internal">
+        <lane id=":waterford_18_0" index="0" speed="8.29" length="28.17" shape="1808.07,465.92 1811.68,461.30 1817.05,462.93 1822.38,468.79 1825.85,476.84"/>
+    </edge>
+    <edge id=":waterford_19" function="internal">
+        <lane id=":waterford_19_0" index="0" speed="3.65" length="4.69" shape="1808.07,465.92 1809.06,464.86 1809.92,464.60 1810.64,465.13 1811.24,466.45"/>
+    </edge>
+    <edge id=":waterford_20" function="internal">
+        <lane id=":waterford_20_0" index="0" speed="3.45" length="3.77" shape="1810.84,466.38 1810.67,467.77 1810.68,468.25 1810.87,467.81 1811.24,466.45"/>
+    </edge>
+    <edge id=":waterford_21" function="internal">
+        <lane id=":waterford_21_0" index="0" speed="9.26" length="29.10" shape="1810.84,466.38 1811.00,457.28 1808.36,452.36 1802.92,451.62 1794.68,455.05"/>
+    </edge>
+    <edge id=":waterford_22" function="internal">
+        <lane id=":waterford_22_0" index="0" speed="10.00" length="37.46" shape="1810.84,466.38 1810.74,456.03 1807.14,448.73 1800.03,444.47 1789.41,443.26"/>
+    </edge>
+    <edge id=":waterford_23" function="internal">
+        <lane id=":waterford_23_0" index="0" speed="7.09" length="21.00" shape="1810.84,466.38 1813.35,464.63 1818.15,467.12 1823.05,471.85 1825.85,476.84"/>
+    </edge>
+    <edge id=":wexford_0" function="internal">
+        <lane id=":wexford_0_0" index="0" speed="3.09" length="2.54" shape="2214.60,573.80 2215.25,573.13 2215.42,572.84 2215.11,572.95 2214.32,573.45"/>
+    </edge>
+    <edge id=":wexford_1" function="internal">
+        <lane id=":wexford_1_0" index="0" speed="7.59" length="22.26" shape="2214.60,573.80 2220.41,568.41 2226.00,564.01 2229.91,562.38 2230.70,565.25"/>
+    </edge>
+    <edge id=":wexford_2" function="internal">
+        <lane id=":wexford_2_0" index="0" speed="5.64" length="12.44" shape="2217.55,576.46 2219.78,572.70 2219.98,570.94 2218.16,571.19 2214.32,573.45"/>
+    </edge>
+    <edge id=":wexford_3" function="internal">
+        <lane id=":wexford_3_0" index="0" speed="7.39" length="22.80" shape="2217.55,576.46 2222.17,570.04 2226.93,564.37 2230.28,561.93 2230.70,565.25"/>
+    </edge>
+
+    <edge id="edge_0" from="dublin" to="limerick" priority="-1" length="1796.25">
+        <lane id="edge_0_0" index="0" speed="10.00" length="1796.25" shape="2294.78,1803.98 782.43,979.23"/>
+    </edge>
+    <edge id="edge_1" from="dublin" to="portlaoise" priority="-1" length="782.58">
+        <lane id="edge_1_0" index="0" speed="10.00" length="782.58" shape="2296.77,1800.88 1698.99,1372.29"/>
+    </edge>
+    <edge id="edge_10" from="carlow" to="waterford" priority="-1" length="708.37">
+        <lane id="edge_10_0" index="0" speed="10.00" length="708.37" shape="1882.61,1138.02 1818.27,480.58"/>
+    </edge>
+    <edge id="edge_11" from="carlow" to="cork" priority="-1" length="1567.87">
+        <lane id="edge_11_0" index="0" speed="10.00" length="1567.87" shape="1877.57,1140.39 840.52,29.67"/>
+    </edge>
+    <edge id="edge_12" from="carlow" to="kilkenny" priority="-1" length="274.45">
+        <lane id="edge_12_0" index="0" speed="10.00" length="274.45" shape="1877.19,1140.79 1695.25,967.99"/>
+    </edge>
+    <edge id="edge_13" from="cavan" to="derry" priority="-1" length="1253.19">
+        <lane id="edge_13_0" index="0" speed="10.00" length="1253.19" shape="1686.57,2630.48 1615.37,3834.15"/>
+    </edge>
+    <edge id="edge_14" from="cavan" to="carlow" priority="-1" length="1497.42">
+        <lane id="edge_14_0" index="0" speed="10.00" length="1497.42" shape="1686.83,2604.43 1881.45,1160.32"/>
+    </edge>
+    <edge id="edge_15" from="ennis" to="craigavon" priority="-1" length="2570.41">
+        <lane id="edge_15_0" index="0" speed="10.00" length="2570.41" shape="488.36,1213.32 2136.02,3141.18"/>
+    </edge>
+    <edge id="edge_16" from="ennis" to="clonmel" priority="-1" length="1083.62">
+        <lane id="edge_16_0" index="0" speed="10.00" length="1083.62" shape="513.46,1182.05 1380.42,611.10"/>
+    </edge>
+    <edge id="edge_17" from="ennis" to="tullamore" priority="-1" length="1225.34">
+        <lane id="edge_17_0" index="0" speed="10.00" length="1225.34" shape="527.12,1226.26 1579.25,1718.21"/>
+    </edge>
+    <edge id="edge_18" from="cork" to="portlaoise" priority="-1" length="1615.85">
+        <lane id="edge_18_0" index="0" speed="10.00" length="1615.85" shape="841.92,39.10 1682.20,1352.09"/>
+    </edge>
+    <edge id="edge_19" from="cork" to="tullamore" priority="-1" length="1891.10">
+        <lane id="edge_19_0" index="0" speed="10.00" length="1891.10" shape="835.90,42.62 1586.29,1712.84"/>
+    </edge>
+    <edge id="edge_2" from="dublin" to="ennis" priority="-1" length="1940.69">
+        <lane id="edge_2_0" index="0" speed="10.00" length="1940.69" shape="2300.64,1811.60 527.91,1223.58"/>
+    </edge>
+    <edge id="edge_20" from="derry" to="antrim" priority="-1" length="780.57">
+        <lane id="edge_20_0" index="0" speed="10.00" length="780.57" shape="1621.09,3873.29 2278.60,3491.45"/>
+    </edge>
+    <edge id="edge_21" from="derry" to="cavan" priority="-1" length="1253.19">
+        <lane id="edge_21_0" index="0" speed="10.00" length="1253.19" shape="1612.16,3834.24 1683.38,2630.29"/>
+    </edge>
+    <edge id="edge_22" from="derry" to="naas" priority="-1" length="2310.36">
+        <lane id="edge_22_0" index="0" speed="10.00" length="2310.36" shape="1619.13,3834.51 2083.02,1626.41"/>
+    </edge>
+    <edge id="edge_23" from="letterkenny" to="bray" priority="-1" length="2410.61">
+        <lane id="edge_23_0" index="0" speed="10.00" length="2410.61" shape="1350.60,3793.53 2440.01,1669.17"/>
+    </edge>
+    <edge id="edge_24" from="letterkenny" to="waterford" priority="-1" length="3397.66">
+        <lane id="edge_24_0" index="0" speed="10.00" length="3397.66" shape="1346.28,3792.44 1810.84,466.38"/>
+    </edge>
+    <edge id="edge_25" from="belfast" to="letterkenny" priority="-1" length="1235.32">
+        <lane id="edge_25_0" index="0" speed="10.00" length="1235.32" shape="2491.08,3364.40 1350.31,3806.05"/>
+    </edge>
+    <edge id="edge_26" from="belfast" to="kilkenny" priority="-1" length="2536.48">
+        <lane id="edge_26_0" index="0" speed="10.00" length="2536.48" shape="2486.96,3332.32 1693.24,983.43"/>
+    </edge>
+    <edge id="edge_27" from="belfast" to="tullamore" priority="-1" length="1870.21">
+        <lane id="edge_27_0" index="0" speed="10.00" length="1870.21" shape="2482.21,3334.86 1598.90,1744.31"/>
+    </edge>
+    <edge id="edge_28" from="belfast" to="monaghan" priority="-1" length="773.46">
+        <lane id="edge_28_0" index="0" speed="10.00" length="773.46" shape="2480.36,3351.21 1840.97,2964.87"/>
+    </edge>
+    <edge id="edge_29" from="belfast" to="dublin" priority="-1" length="1553.01">
+        <lane id="edge_29_0" index="0" speed="10.00" length="1553.01" shape="2494.27,3341.46 2322.47,1835.20"/>
+    </edge>
+    <edge id="edge_3" from="dublin" to="galway" priority="-1" length="1852.56">
+        <lane id="edge_3_0" index="0" speed="10.00" length="1852.56" shape="2299.61,1817.68 480.34,1742.98"/>
+    </edge>
+    <edge id="edge_30" from="enniskillen" to="athlone" priority="-1" length="1118.84">
+        <lane id="edge_30_0" index="0" speed="10.00" length="1118.84" shape="1452.67,3058.13 1255.90,1969.45"/>
+    </edge>
+    <edge id="edge_31" from="galway" to="belfast" priority="-1" length="2594.20">
+        <lane id="edge_31_0" index="0" speed="10.00" length="2594.20" shape="479.96,1746.11 2483.37,3346.27"/>
+    </edge>
+    <edge id="edge_32" from="tralee" to="bray" priority="-1" length="2713.58">
+        <lane id="edge_32_0" index="0" speed="10.00" length="2713.58" shape="17.78,492.76 2437.60,1655.19"/>
+    </edge>
+    <edge id="edge_33" from="tralee" to="ennis" priority="-1" length="865.33">
+        <lane id="edge_33_0" index="0" speed="10.00" length="865.33" shape="26.23,522.46 473.80,1193.82"/>
+    </edge>
+    <edge id="edge_34" from="tralee" to="cavan" priority="-1" length="2726.90">
+        <lane id="edge_34_0" index="0" speed="10.00" length="2726.90" shape="28.89,520.17 1680.32,2621.46"/>
+    </edge>
+    <edge id="edge_35" from="naas" to="derry" priority="-1" length="2310.36">
+        <lane id="edge_35_0" index="0" speed="10.00" length="2310.36" shape="2086.15,1627.06 1622.26,3835.17"/>
+    </edge>
+    <edge id="edge_36" from="naas" to="ennis" priority="-1" length="1658.50">
+        <lane id="edge_36_0" index="0" speed="10.00" length="1658.50" shape="2078.94,1619.83 528.98,1220.28"/>
+    </edge>
+    <edge id="edge_37" from="kilkenny" to="roscommon" priority="-1" length="1421.25">
+        <lane id="edge_37_0" index="0" speed="10.00" length="1421.25" shape="1682.77,966.97 1056.59,2208.56"/>
+    </edge>
+    <edge id="edge_38" from="kilkenny" to="cavan" priority="-1" length="1673.00">
+        <lane id="edge_38_0" index="0" speed="10.00" length="1673.00" shape="1687.58,984.51 1686.62,2604.41"/>
+    </edge>
+    <edge id="edge_39" from="kilkenny" to="clonmel" priority="-1" length="459.36">
+        <lane id="edge_39_0" index="0" speed="10.00" length="459.36" shape="1679.61,952.08 1393.61,622.37"/>
+    </edge>
+    <edge id="edge_4" from="dublin" to="derry" priority="-1" length="2183.03">
+        <lane id="edge_4_0" index="0" speed="10.00" length="2183.03" shape="2317.61,1834.67 1622.20,3853.41"/>
+    </edge>
+    <edge id="edge_40" from="kilkenny" to="craigavon" priority="-1" length="2251.33">
+        <lane id="edge_40_0" index="0" speed="10.00" length="2251.33" shape="1693.20,983.44 2149.36,3149.22"/>
+    </edge>
+    <edge id="edge_41" from="kilkenny" to="waterford" priority="-1" length="532.12">
+        <lane id="edge_41_0" index="0" speed="10.00" length="532.12" shape="1685.97,950.56 1808.07,465.92"/>
+    </edge>
+    <edge id="edge_42" from="portlaoise" to="sligo" priority="-1" length="1788.89">
+        <lane id="edge_42_0" index="0" speed="10.00" length="1788.89" shape="1679.03,1378.26 884.89,2942.02"/>
+    </edge>
+    <edge id="edge_43" from="portlaoise" to="tralee" priority="-1" length="1899.53">
+        <lane id="edge_43_0" index="0" speed="10.00" length="1899.53" shape="1676.02,1357.63 16.14,496.18"/>
+    </edge>
+    <edge id="edge_44" from="portlaoise" to="wexford" priority="-1" length="967.44">
+        <lane id="edge_44_0" index="0" speed="10.00" length="967.44" shape="1689.65,1352.78 2217.55,576.46"/>
+    </edge>
+    <edge id="edge_45" from="portlaoise" to="antrim" priority="-1" length="2210.97">
+        <lane id="edge_45_0" index="0" speed="10.00" length="2210.97" shape="1693.66,1382.28 2277.97,3454.63"/>
+    </edge>
+    <edge id="edge_46" from="portlaoise" to="navan" priority="-1" length="930.38">
+        <lane id="edge_46_0" index="0" speed="10.00" length="930.38" shape="1697.32,1381.04 2085.72,2196.70"/>
+    </edge>
+    <edge id="edge_47" from="portlaoise" to="cork" priority="-1" length="1615.85">
+        <lane id="edge_47_0" index="0" speed="10.00" length="1615.85" shape="1679.50,1353.82 839.23,40.83"/>
+    </edge>
+    <edge id="edge_48" from="carrick" to="bray" priority="-1" length="1608.97">
+        <lane id="edge_48_0" index="0" speed="10.00" length="1608.97" shape="1129.45,2576.64 2436.21,1665.88"/>
+    </edge>
+    <edge id="edge_49" from="limerick" to="belfast" priority="-1" length="2974.46">
+        <lane id="edge_49_0" index="0" speed="10.00" length="2974.46" shape="767.32,984.88 2481.80,3335.08"/>
+    </edge>
+    <edge id="edge_5" from="antrim" to="tralee" priority="-1" length="3774.10">
+        <lane id="edge_5_0" index="0" speed="10.00" length="3774.10" shape="2263.62,3462.24 25.91,522.67"/>
+    </edge>
+    <edge id="edge_50" from="limerick" to="waterford" priority="-1" length="1188.82">
+        <lane id="edge_50_0" index="0" speed="10.00" length="1188.82" shape="750.07,949.23 1790.64,447.89"/>
+        <lane id="edge_50_1" index="1" speed="10.00" length="1188.82" shape="751.46,952.11 1792.21,450.68"/>
+    </edge>
+    <edge id="edge_51" from="limerick" to="enniskillen" priority="-1" length="2221.51">
+        <lane id="edge_51_0" index="0" speed="10.00" length="2221.51" shape="751.02,969.84 1455.23,3057.67"/>
+    </edge>
+    <edge id="edge_52" from="limerick" to="ennis" priority="-1" length="363.63">
+        <lane id="edge_52_0" index="0" speed="10.00" length="363.63" shape="740.31,963.61 511.08,1179.00"/>
+    </edge>
+    <edge id="edge_53" from="limerick" to="dundalk" priority="-1" length="2246.98">
+        <lane id="edge_53_0" index="0" speed="10.00" length="2246.98" shape="776.41,989.64 2235.91,2617.47"/>
+    </edge>
+    <edge id="edge_54" from="limerick" to="dublin" priority="-1" length="1796.25">
+        <lane id="edge_54_0" index="0" speed="10.00" length="1796.25" shape="784.03,976.46 2296.48,1801.26"/>
+    </edge>
+    <edge id="edge_55" from="longford" to="monaghan" priority="-1" length="803.80">
+        <lane id="edge_55_0" index="0" speed="10.00" length="803.80" shape="1360.64,2320.87 1830.87,2950.46"/>
+    </edge>
+    <edge id="edge_56" from="longford" to="carrick" priority="-1" length="350.24">
+        <lane id="edge_56_0" index="0" speed="10.00" length="350.24" shape="1353.13,2320.61 1130.52,2578.21"/>
+    </edge>
+    <edge id="edge_57" from="longford" to="galway" priority="-1" length="1054.55">
+        <lane id="edge_57_0" index="0" speed="10.00" length="1054.55" shape="1343.42,2310.38 478.67,1747.90"/>
+    </edge>
+    <edge id="edge_58" from="longford" to="carlow" priority="-1" length="1284.45">
+        <lane id="edge_58_0" index="0" speed="10.00" length="1284.45" shape="1356.70,2308.37 1877.37,1158.96"/>
+    </edge>
+    <edge id="edge_59" from="dundalk" to="waterford" priority="-1" length="2230.64">
+        <lane id="edge_59_0" index="0" speed="10.00" length="2230.64" shape="2240.43,2614.98 1821.58,477.81"/>
+    </edge>
+    <edge id="edge_6" from="antrim" to="limerick" priority="-1" length="2964.07">
+        <lane id="edge_6_0" index="0" speed="10.00" length="2964.07" shape="2266.67,3460.32 750.95,969.86"/>
+    </edge>
+    <edge id="edge_60" from="dundalk" to="ennis" priority="-1" length="2267.82">
+        <lane id="edge_60_0" index="0" speed="10.00" length="2267.82" shape="2232.27,2621.78 487.45,1214.07"/>
+    </edge>
+    <edge id="edge_61" from="castlebar" to="wexford" priority="-1" length="2697.80">
+        <lane id="edge_61_0" index="0" speed="10.00" length="2697.80" shape="304.74,2439.14 2214.60,573.80"/>
+    </edge>
+    <edge id="edge_62" from="castlebar" to="ennis" priority="-1" length="1253.00">
+        <lane id="edge_62_0" index="0" speed="10.00" length="1253.00" shape="296.58,2436.14 474.14,1212.95"/>
+        <lane id="edge_62_1" index="1" speed="10.00" length="1253.00" shape="299.75,2436.60 477.31,1213.41"/>
+    </edge>
+    <edge id="edge_63" from="castlebar" to="longford" priority="-1" length="1062.98">
+        <lane id="edge_63_0" index="0" speed="10.00" length="1062.98" shape="303.50,2443.96 1342.12,2315.97"/>
+    </edge>
+    <edge id="edge_64" from="navan" to="omagh" priority="-1" length="1253.86">
+        <lane id="edge_64_0" index="0" speed="10.00" length="1253.86" shape="2084.69,2208.41 1620.11,3340.57"/>
+    </edge>
+    <edge id="edge_65" from="navan" to="tralee" priority="-1" length="2700.49">
+        <lane id="edge_65_0" index="0" speed="10.00" length="2700.49" shape="2081.89,2199.70 33.11,515.29"/>
+    </edge>
+    <edge id="edge_66" from="monaghan" to="waterford" priority="-1" length="2519.08">
+        <lane id="edge_66_0" index="0" speed="10.00" length="2519.08" shape="1834.31,2948.73 1814.72,480.76"/>
+    </edge>
+    <edge id="edge_67" from="monaghan" to="castlebar" priority="-1" length="1619.72">
+        <lane id="edge_67_0" index="0" speed="10.00" length="1619.72" shape="1821.51,2960.21 316.55,2456.60"/>
+        <lane id="edge_67_1" index="1" speed="10.00" length="1619.72" shape="1822.53,2957.18 317.57,2453.57"/>
+    </edge>
+    <edge id="edge_68" from="monaghan" to="craigavon" priority="-1" length="372.28">
+        <lane id="edge_68_0" index="0" speed="10.00" length="372.28" shape="1842.61,2962.31 2131.16,3146.10"/>
+    </edge>
+    <edge id="edge_69" from="monaghan" to="enniskillen" priority="-1" length="394.42">
+        <lane id="edge_69_0" index="0" speed="10.00" length="394.42" shape="1821.35,2965.58 1462.38,3061.68"/>
+    </edge>
+    <edge id="edge_7" from="craigavon" to="carrick" priority="-1" length="1176.36">
+        <lane id="edge_7_0" index="0" speed="10.00" length="1176.36" shape="2128.97,3149.95 1131.54,2585.97"/>
+    </edge>
+    <edge id="edge_70" from="tullamore" to="omagh" priority="-1" length="1636.12">
+        <lane id="edge_70_0" index="0" speed="10.00" length="1636.12" shape="1591.86,1746.14 1611.34,3339.37"/>
+    </edge>
+    <edge id="edge_71" from="tullamore" to="monaghan" priority="-1" length="1259.26">
+        <lane id="edge_71_0" index="0" speed="10.00" length="1259.26" shape="1595.71,1745.48 1835.36,2948.62"/>
+    </edge>
+    <edge id="edge_72" from="tullamore" to="cork" priority="-1" length="1891.10">
+        <lane id="edge_72_0" index="0" speed="10.00" length="1891.10" shape="1583.37,1714.15 832.98,43.94"/>
+    </edge>
+    <edge id="edge_73" from="roscommon" to="dublin" priority="-1" length="1339.95">
+        <lane id="edge_73_0" index="0" speed="10.00" length="1339.95" shape="1059.17,2220.10 2300.56,1822.19"/>
+    </edge>
+    <edge id="edge_74" from="roscommon" to="letterkenny" priority="-1" length="1608.23">
+        <lane id="edge_74_0" index="0" speed="10.00" length="1608.23" shape="1048.32,2229.63 1345.06,3792.47"/>
+    </edge>
+    <edge id="edge_75" from="sligo" to="omagh" priority="-1" length="838.32">
+        <lane id="edge_75_0" index="0" speed="10.00" length="838.32" shape="884.31,2955.11 1605.63,3353.11"/>
+        <lane id="edge_75_1" index="1" speed="10.00" length="838.32" shape="882.77,2957.91 1604.09,3355.91"/>
+    </edge>
+    <edge id="edge_76" from="sligo" to="castlebar" priority="-1" length="769.33">
+        <lane id="edge_76_0" index="0" speed="10.00" length="769.33" shape="872.05,2954.64 314.19,2460.70"/>
+    </edge>
+    <edge id="edge_77" from="clonmel" to="cavan" priority="-1" length="2042.16">
+        <lane id="edge_77_0" index="0" speed="10.00" length="2042.16" shape="1393.17,654.11 1682.84,2604.58"/>
+    </edge>
+    <edge id="edge_78" from="clonmel" to="derry" priority="-1" length="3278.80">
+        <lane id="edge_78_0" index="0" speed="10.00" length="3278.80" shape="1389.68,654.49 1609.38,3834.31"/>
+    </edge>
+    <edge id="edge_79" from="clonmel" to="sligo" priority="-1" length="2400.58">
+        <lane id="edge_79_0" index="0" speed="10.00" length="2400.58" shape="1383.38,625.02 880.97,2940.63"/>
+    </edge>
+    <edge id="edge_8" from="craigavon" to="tralee" priority="-1" length="3431.15">
+        <lane id="edge_8_0" index="0" speed="10.00" length="3431.15" shape="2134.07,3142.75 26.90,522.01"/>
+    </edge>
+    <edge id="edge_80" from="omagh" to="portlaoise" priority="-1" length="2001.44">
+        <lane id="edge_80_0" index="0" speed="10.00" length="2001.44" shape="1609.23,3339.24 1683.51,1384.27"/>
+    </edge>
+    <edge id="edge_81" from="waterford" to="naas" priority="-1" length="1209.52">
+        <lane id="edge_81_0" index="0" speed="10.00" length="1209.52" shape="1825.85,476.84 2086.71,1615.92"/>
+    </edge>
+    <edge id="edge_82" from="waterford" to="tralee" priority="-1" length="1816.56">
+        <lane id="edge_82_0" index="0" speed="10.00" length="1816.56" shape="1789.41,443.26 17.32,487.17"/>
+    </edge>
+    <edge id="edge_83" from="waterford" to="ennis" priority="-1" length="1539.52">
+        <lane id="edge_83_0" index="0" speed="10.00" length="1539.52" shape="1794.68,455.05 516.59,1186.89"/>
+    </edge>
+    <edge id="edge_84" from="waterford" to="kilkenny" priority="-1" length="532.12">
+        <lane id="edge_84_0" index="0" speed="10.00" length="532.12" shape="1811.24,466.45 1689.07,951.35"/>
+    </edge>
+    <edge id="edge_85" from="athlone" to="portlaoise" priority="-1" length="738.17">
+        <lane id="edge_85_0" index="0" speed="10.00" length="738.17" shape="1259.59,1953.24 1673.71,1375.41"/>
+    </edge>
+    <edge id="edge_86" from="athlone" to="dublin" priority="-1" length="1075.68">
+        <lane id="edge_86_0" index="0" speed="10.00" length="1075.68" shape="1262.74,1958.47 2299.70,1818.40"/>
+    </edge>
+    <edge id="edge_87" from="athlone" to="castlebar" priority="-1" length="1071.99">
+        <lane id="edge_87_0" index="0" speed="10.00" length="1071.99" shape="1246.97,1967.37 304.04,2445.74"/>
+    </edge>
+    <edge id="edge_88" from="wexford" to="omagh" priority="-1" length="2867.82">
+        <lane id="edge_88_0" index="0" speed="10.00" length="2867.82" shape="2230.70,565.25 1616.37,3339.65"/>
+    </edge>
+    <edge id="edge_89" from="wexford" to="galway" priority="-1" length="2118.13">
+        <lane id="edge_89_0" index="0" speed="10.00" length="2118.13" shape="2214.32,573.45 478.84,1737.67"/>
+    </edge>
+    <edge id="edge_9" from="carlow" to="roscommon" priority="-1" length="1367.60">
+        <lane id="edge_9_0" index="0" speed="10.00" length="1367.60" shape="1877.09,1158.79 1059.93,2210.67"/>
+    </edge>
+    <edge id="edge_90" from="bray" to="monaghan" priority="-1" length="1435.10">
+        <lane id="edge_90_0" index="0" speed="10.00" length="1435.10" shape="2443.20,1670.73 1840.34,2954.51"/>
+    </edge>
+    <edge id="edge_91" from="bray" to="portlaoise" priority="-1" length="817.07">
+        <lane id="edge_91_0" index="0" speed="10.00" length="817.07" shape="2436.15,1658.83 1700.98,1368.63"/>
+    </edge>
+    <edge id="edge_92" from="bray" to="omagh" priority="-1" length="1894.44">
+        <lane id="edge_92_0" index="0" speed="10.00" length="1894.44" shape="2443.04,1670.65 1621.53,3341.18"/>
+    </edge>
+
+    <junction id="antrim" type="right_before_left" x="2286.00" y="3489.00" incLanes="edge_45_0 edge_20_0" intLanes=":antrim_0_0 :antrim_1_0 :antrim_2_0 :antrim_3_0" shape="2279.43,3453.89 2265.24,3461.04 2264.89,3461.27 2262.35,3463.21 2267.31,3469.84 2271.63,3475.89 2275.06,3481.14 2277.39,3485.40 2278.38,3488.44 2277.80,3490.06 2279.41,3492.83 2282.03,3490.22 2283.61,3486.06 2284.14,3480.35 2283.62,3473.09 2282.05,3464.27">
+        <request index="0" response="1100" foes="1100" cont="0"/>
+        <request index="1" response="1000" foes="1000" cont="0"/>
+        <request index="2" response="0000" foes="0001" cont="0"/>
+        <request index="3" response="0000" foes="0011" cont="0"/>
+    </junction>
+    <junction id="athlone" type="priority" x="1256.00" y="1961.00" incLanes="edge_30_0" intLanes=":athlone_0_0 :athlone_1_0 :athlone_2_0" shape="1254.33,1969.73 1257.48,1969.17 1257.22,1966.64 1257.43,1964.52 1258.11,1962.81 1259.25,1961.49 1260.87,1960.57 1262.95,1960.06 1262.53,1956.89 1260.58,1956.83 1260.14,1956.48 1260.04,1955.92 1260.29,1955.15 1260.89,1954.17 1258.29,1952.31 1256.12,1955.60 1254.62,1958.22 1253.32,1960.36 1251.80,1962.23 1249.59,1964.02 1246.25,1965.95 1247.69,1968.80 1251.06,1967.57 1252.31,1967.53 1253.27,1967.88 1253.94,1968.61">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="belfast" type="right_before_left" x="2498.00" y="3360.00" incLanes="edge_49_0 edge_31_0" intLanes=":belfast_0_0 :belfast_1_0 :belfast_2_0 :belfast_3_0 :belfast_4_0 :belfast_5_0 :belfast_6_0 :belfast_7_0 :belfast_8_0 :belfast_9_0" shape="2495.86,3341.27 2492.68,3341.64 2492.41,3342.28 2491.84,3341.10 2490.98,3338.92 2489.83,3335.74 2488.39,3331.55 2480.80,3335.62 2482.71,3339.14 2484.08,3341.88 2484.92,3343.82 2485.22,3344.97 2484.98,3345.33 2484.21,3344.89 2479.52,3352.57 2483.91,3355.33 2487.28,3357.67 2489.62,3359.60 2490.94,3361.11 2491.23,3362.22 2490.50,3362.90 2491.65,3365.89 2493.64,3364.48 2495.11,3362.00 2496.07,3358.43 2496.51,3353.79 2496.44,3348.07">
+        <request index="0" response="0000100000" foes="0000100000" cont="0"/>
+        <request index="1" response="0000000000" foes="0001000000" cont="0"/>
+        <request index="2" response="0000000000" foes="0011000000" cont="0"/>
+        <request index="3" response="0000000000" foes="0111000000" cont="0"/>
+        <request index="4" response="0000000000" foes="1111000000" cont="0"/>
+        <request index="5" response="0000000000" foes="0000000001" cont="0"/>
+        <request index="6" response="0000011110" foes="0000011110" cont="0"/>
+        <request index="7" response="0000011100" foes="0000011100" cont="0"/>
+        <request index="8" response="0000011000" foes="0000011000" cont="0"/>
+        <request index="9" response="0000010000" foes="0000010000" cont="0"/>
+    </junction>
+    <junction id="bray" type="right_before_left" x="2446.00" y="1661.00" incLanes="edge_32_0 edge_48_0 edge_23_0" intLanes=":bray_0_0 :bray_1_0 :bray_2_0 :bray_3_0 :bray_4_0 :bray_5_0 :bray_6_0 :bray_7_0 :bray_8_0" shape="2438.19,1653.70 2435.56,1660.32 2437.18,1661.44 2437.35,1662.11 2437.09,1662.86 2436.41,1663.67 2435.29,1664.56 2437.12,1667.19 2438.58,1668.46 2444.47,1671.36 2445.92,1667.58 2446.36,1664.13 2445.81,1661.02 2444.27,1658.25 2441.73,1655.81">
+        <request index="0" response="000000000" foes="110110000" cont="0"/>
+        <request index="1" response="000010000" foes="110110000" cont="0"/>
+        <request index="2" response="001001000" foes="001001000" cont="0"/>
+        <request index="3" response="000000000" foes="001000100" cont="0"/>
+        <request index="4" response="000000001" foes="111000011" cont="0"/>
+        <request index="5" response="000000011" foes="101000011" cont="0"/>
+        <request index="6" response="000111000" foes="000111100" cont="0"/>
+        <request index="7" response="000010011" foes="000010011" cont="0"/>
+        <request index="8" response="000110011" foes="000110011" cont="0"/>
+    </junction>
+    <junction id="carlow" type="right_before_left" x="1885.00" y="1146.00" incLanes="edge_58_0 edge_14_0" intLanes=":carlow_0_0 :carlow_1_0 :carlow_2_0 :carlow_3_0 :carlow_4_0 :carlow_5_0 :carlow_6_0 :carlow_7_0" shape="1884.20,1137.86 1881.02,1138.17 1880.93,1140.06 1880.63,1140.43 1880.15,1140.41 1879.50,1140.01 1878.68,1139.23 1876.08,1141.94 1878.00,1144.22 1879.13,1146.65 1879.46,1149.24 1879.00,1151.99 1877.75,1154.90 1875.71,1157.96 1878.75,1159.79 1879.87,1160.11 1883.04,1160.54 1883.73,1155.74 1884.26,1152.17 1884.61,1149.22 1884.73,1146.26 1884.61,1142.68">
+        <request index="0" response="00000000" foes="00010000" cont="0"/>
+        <request index="1" response="00000000" foes="00110000" cont="0"/>
+        <request index="2" response="00000000" foes="01110000" cont="0"/>
+        <request index="3" response="00000000" foes="11110000" cont="0"/>
+        <request index="4" response="00001111" foes="00001111" cont="0"/>
+        <request index="5" response="00001110" foes="00001110" cont="0"/>
+        <request index="6" response="00001100" foes="00001100" cont="0"/>
+        <request index="7" response="00001000" foes="00001000" cont="0"/>
+    </junction>
+    <junction id="carrick" type="right_before_left" x="1126.00" y="2581.00" incLanes="edge_7_0 edge_56_0" intLanes=":carrick_0_0 :carrick_1_0" shape="1130.75,2587.36 1132.32,2584.58 1130.68,2583.15 1130.37,2582.34 1130.39,2581.48 1130.75,2580.56 1131.46,2579.58 1128.55,2575.32 1126.23,2577.31 1124.99,2579.31 1124.82,2581.31 1125.73,2583.32 1127.70,2585.34">
+        <request index="0" response="00" foes="10" cont="0"/>
+        <request index="1" response="01" foes="01" cont="0"/>
+    </junction>
+    <junction id="castlebar" type="right_before_left" x="300.00" y="2446.00" incLanes="edge_76_0 edge_67_0 edge_67_1 edge_87_0" intLanes=":castlebar_0_0 :castlebar_1_0 :castlebar_2_0 :castlebar_3_0 :castlebar_4_0 :castlebar_5_0 :castlebar_6_0 :castlebar_7_0 :castlebar_8_0" shape="313.13,2461.90 315.25,2459.50 316.05,2458.12 318.08,2452.05 312.66,2450.19 308.48,2448.63 305.51,2447.39 303.77,2446.45 303.26,2445.83 303.97,2445.51 303.57,2444.19 302.24,2444.56 302.36,2444.12 303.00,2443.26 304.16,2441.98 305.85,2440.28 303.62,2437.99 302.09,2439.11 301.62,2439.10 301.33,2438.72 301.24,2437.96 301.33,2436.83 295.00,2435.91 295.15,2439.08 296.44,2442.71 298.89,2446.81 302.49,2451.37 307.23,2456.40">
+        <request index="0" response="000000000" foes="000100000" cont="0"/>
+        <request index="1" response="000000000" foes="110111000" cont="0"/>
+        <request index="2" response="011000000" foes="011111000" cont="0"/>
+        <request index="3" response="000000110" foes="010000110" cont="0"/>
+        <request index="4" response="000000110" foes="110000110" cont="0"/>
+        <request index="5" response="011000111" foes="011000111" cont="0"/>
+        <request index="6" response="000000000" foes="000100100" cont="0"/>
+        <request index="7" response="000011010" foes="000111110" cont="0"/>
+        <request index="8" response="000010010" foes="000010010" cont="0"/>
+    </junction>
+    <junction id="cavan" type="right_before_left" x="1685.00" y="2630.00" incLanes="edge_38_0 edge_77_0 edge_34_0 edge_21_0" intLanes=":cavan_0_0 :cavan_1_0 :cavan_2_0 :cavan_3_0 :cavan_4_0 :cavan_5_0 :cavan_6_0 :cavan_7_0" shape="1688.43,2604.53 1685.02,2604.30 1684.43,2604.35 1681.26,2604.82 1682.04,2610.47 1682.54,2614.91 1682.74,2618.13 1682.64,2620.13 1682.26,2620.91 1681.58,2620.47 1679.06,2622.45 1680.95,2624.98 1681.47,2626.00 1681.75,2627.08 1681.84,2628.43 1681.78,2630.20 1688.17,2630.58">
+        <request index="0" response="00000000" foes="01010100" cont="0"/>
+        <request index="1" response="00000000" foes="11111100" cont="0"/>
+        <request index="2" response="00000011" foes="01010011" cont="0"/>
+        <request index="3" response="00000010" foes="11110010" cont="0"/>
+        <request index="4" response="00001111" foes="01001111" cont="0"/>
+        <request index="5" response="00001010" foes="11001010" cont="0"/>
+        <request index="6" response="00111111" foes="00111111" cont="0"/>
+        <request index="7" response="00101010" foes="00101010" cont="0"/>
+    </junction>
+    <junction id="clonmel" type="right_before_left" x="1385.00" y="610.00" incLanes="edge_39_0 edge_16_0" intLanes=":clonmel_0_0 :clonmel_1_0 :clonmel_2_0 :clonmel_3_0 :clonmel_4_0 :clonmel_5_0" shape="1388.08,654.60 1391.27,654.38 1391.59,654.34 1394.75,653.87 1393.56,645.61 1392.55,637.96 1391.82,631.40 1391.48,626.46 1391.64,623.63 1392.40,623.41 1394.82,621.32 1391.08,617.18 1387.82,613.92 1385.03,611.55 1382.73,610.07 1380.90,609.47 1379.54,609.76 1381.30,612.43 1383.00,612.71 1383.28,614.28 1383.17,616.79 1382.69,620.26 1381.82,624.68 1384.94,625.36 1385.82,627.87 1386.35,632.64 1386.92,639.05 1387.51,646.55">
+        <request index="0" response="000000" foes="001000" cont="0"/>
+        <request index="1" response="000000" foes="011000" cont="0"/>
+        <request index="2" response="000000" foes="111000" cont="0"/>
+        <request index="3" response="000111" foes="000111" cont="0"/>
+        <request index="4" response="000110" foes="000110" cont="0"/>
+        <request index="5" response="000100" foes="000100" cont="0"/>
+    </junction>
+    <junction id="cork" type="right_before_left" x="815.00" y="0.00" incLanes="edge_72_0 edge_47_0 edge_11_0" intLanes=":cork_0_0 :cork_1_0 :cork_2_0 :cork_3_0 :cork_4_0 :cork_5_0" shape="831.53,44.59 837.36,41.97 837.88,41.69 843.27,38.24 841.31,35.14 839.88,32.79 838.96,31.17 838.57,30.30 838.70,30.16 839.35,30.76 841.69,28.58 832.11,19.07 825.69,14.44 822.42,14.67 822.30,19.78 825.34,29.75">
+        <request index="0" response="110000" foes="111000" cont="0"/>
+        <request index="1" response="100100" foes="100100" cont="0"/>
+        <request index="2" response="000000" foes="100010" cont="0"/>
+        <request index="3" response="010001" foes="010001" cont="0"/>
+        <request index="4" response="000000" foes="001001" cont="0"/>
+        <request index="5" response="000100" foes="000111" cont="0"/>
+    </junction>
+    <junction id="craigavon" type="right_before_left" x="2150.00" y="3160.00" incLanes="edge_40_0 edge_15_0 edge_68_0" intLanes=":craigavon_0_0 :craigavon_1_0 :craigavon_2_0 :craigavon_3_0 :craigavon_4_0 :craigavon_5_0" shape="2150.93,3148.89 2147.80,3149.55 2147.00,3150.25 2145.58,3149.17 2143.49,3147.13 2140.72,3144.13 2137.27,3140.18 2132.82,3143.75 2131.96,3144.71 2128.18,3151.34 2136.15,3155.42 2142.44,3157.70 2147.07,3158.19 2150.03,3156.89 2151.32,3153.79">
+        <request index="0" response="000000" foes="100100" cont="0"/>
+        <request index="1" response="010000" foes="011100" cont="0"/>
+        <request index="2" response="000011" foes="100011" cont="0"/>
+        <request index="3" response="010010" foes="010010" cont="0"/>
+        <request index="4" response="000000" foes="001010" cont="0"/>
+        <request index="5" response="000101" foes="000101" cont="0"/>
+    </junction>
+    <junction id="derry" type="right_before_left" x="1611.00" y="3881.00" incLanes="edge_4_0 edge_35_0 edge_13_0 edge_78_0" intLanes=":derry_0_0 :derry_1_0 :derry_2_0 :derry_3_0 :derry_4_0 :derry_5_0 :derry_6_0 :derry_7_0 :derry_8_0 :derry_9_0 :derry_10_0 :derry_11_0" shape="1621.89,3874.68 1620.28,3871.91 1619.15,3870.13 1619.67,3867.15 1620.71,3863.24 1622.11,3858.72 1623.71,3853.93 1620.68,3852.89 1620.57,3851.91 1621.09,3848.98 1621.88,3844.98 1622.82,3840.34 1623.83,3835.50 1617.57,3834.18 1616.98,3834.10 1607.78,3834.36 1609.06,3848.43 1610.78,3859.57 1612.92,3867.76 1615.48,3873.01 1618.47,3875.31">
+        <request index="0"  response="000000000000" foes="100010001000" cont="0"/>
+        <request index="1"  response="011000000000" foes="011110011000" cont="0"/>
+        <request index="2"  response="010001000000" foes="010001111000" cont="0"/>
+        <request index="3"  response="000000000111" foes="100010000111" cont="0"/>
+        <request index="4"  response="011000000110" foes="011110000110" cont="0"/>
+        <request index="5"  response="010001000100" foes="010001000100" cont="0"/>
+        <request index="6"  response="000000000000" foes="010000100100" cont="0"/>
+        <request index="7"  response="000000011011" foes="110000011011" cont="0"/>
+        <request index="8"  response="001000010010" foes="001000010010" cont="0"/>
+        <request index="9"  response="000000000000" foes="000100010010" cont="0"/>
+        <request index="10" response="000011000000" foes="000011110110" cont="0"/>
+        <request index="11" response="000010001001" foes="000010001001" cont="0"/>
+    </junction>
+    <junction id="dublin" type="right_before_left" x="2322.00" y="1817.00" incLanes="edge_29_0 edge_54_0 edge_86_0 edge_73_0" intLanes=":dublin_0_0 :dublin_1_0 :dublin_2_0 :dublin_3_0 :dublin_4_0 :dublin_5_0 :dublin_6_0 :dublin_7_0 :dublin_8_0 :dublin_9_0 :dublin_10_0 :dublin_11_0 :dublin_12_0 :dublin_13_0 :dublin_14_0 :dublin_15_0 :dublin_16_0 :dublin_17_0 :dublin_18_0 :dublin_19_0" shape="2320.88,1835.38 2324.06,1835.02 2322.62,1827.96 2319.99,1821.39 2316.16,1815.30 2311.12,1809.71 2304.89,1804.59 2297.46,1799.97 2295.81,1802.16 2295.55,1802.57 2294.02,1805.38 2297.25,1807.17 2299.66,1808.55 2301.26,1809.54 2302.04,1810.12 2302.00,1810.30 2301.14,1810.08 2300.13,1813.12 2299.39,1816.07 2299.92,1819.98 2300.07,1820.67 2301.05,1823.72 2305.76,1822.74 2309.99,1822.90 2313.44,1824.16 2315.82,1826.48 2316.80,1829.82 2316.09,1834.14 2319.12,1835.19">
+        <request index="0"  response="00000000000000000000" foes="10000100000001000000" cont="0"/>
+        <request index="1"  response="01111011110000000000" foes="01111011110011000000" cont="0"/>
+        <request index="2"  response="01110011100000000000" foes="01110011100111000000" cont="0"/>
+        <request index="3"  response="01100011000000000000" foes="01100011001111000000" cont="0"/>
+        <request index="4"  response="01000010000000000000" foes="01000010001111100000" cont="0"/>
+        <request index="5"  response="01000010000000010000" foes="01000010000000010000" cont="0"/>
+        <request index="6"  response="00000000000000011111" foes="10000100000000011111" cont="0"/>
+        <request index="7"  response="01111111110000011110" foes="01111111110000011110" cont="0"/>
+        <request index="8"  response="01110011100000011100" foes="01110011100000011100" cont="0"/>
+        <request index="9"  response="01100011000000011000" foes="01100011000000011000" cont="0"/>
+        <request index="10" response="00000000000000000000" foes="00001000000010000010" cont="0"/>
+        <request index="11" response="00000000000000000000" foes="00011000000110000110" cont="0"/>
+        <request index="12" response="00000000000000000000" foes="00111000001110001110" cont="0"/>
+        <request index="13" response="00000000000000000000" foes="01111000001110111110" cont="0"/>
+        <request index="14" response="00000000000001000001" foes="11111000000011000001" cont="0"/>
+        <request index="15" response="00000111110000000000" foes="00000111110010000010" cont="0"/>
+        <request index="16" response="00000111100000000000" foes="00000111100110000110" cont="0"/>
+        <request index="17" response="00000111000000000000" foes="00000111001110001110" cont="0"/>
+        <request index="18" response="00000110000000000000" foes="00000110001110111110" cont="0"/>
+        <request index="19" response="00000100000001000001" foes="00000100000001000001" cont="0"/>
+    </junction>
+    <junction id="dundalk" type="priority" x="2245.00" y="2630.00" incLanes="edge_53_0" intLanes=":dundalk_0_0 :dundalk_1_0" shape="2242.00,2614.67 2238.86,2615.29 2236.95,2616.23 2231.24,2623.01 2235.63,2626.08 2238.97,2627.36 2241.29,2626.86 2242.56,2624.58 2242.80,2620.52">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="ennis" type="right_before_left" x="480.00" y="1206.00" incLanes="edge_60_0 edge_2_0 edge_36_0 edge_83_0 edge_52_0 edge_33_0 edge_62_0 edge_62_1" intLanes=":ennis_0_0 :ennis_1_0 :ennis_2_0 :ennis_3_0 :ennis_4_0 :ennis_5_0 :ennis_6_0 :ennis_7_0 :ennis_8_0 :ennis_9_0 :ennis_10_0 :ennis_11_0 :ennis_12_0 :ennis_13_0 :ennis_14_0 :ennis_15_0 :ennis_16_0 :ennis_17_0 :ennis_18_0 :ennis_19_0 :ennis_20_0" shape="486.18,1215.09 489.61,1212.32 493.75,1213.11 499.73,1215.57 507.56,1219.02 516.71,1223.19 526.61,1227.79 528.50,1222.09 528.58,1221.83 529.38,1218.73 521.29,1215.52 514.97,1210.80 510.93,1205.15 509.67,1199.12 511.70,1193.28 517.53,1188.20 512.60,1180.70 512.17,1180.16 509.98,1177.83 502.48,1184.59 495.45,1190.18 489.05,1194.19 483.43,1196.24 478.74,1195.95 475.13,1192.93 472.47,1194.71 474.30,1198.02 475.00,1200.73 474.87,1203.18 474.22,1205.75 473.35,1208.81 472.56,1212.72 478.89,1213.64 479.96,1212.04 481.00,1212.02 482.38,1212.53 484.11,1213.55">
+        <request index="0"  response="100100100010010010000" foes="100100100010010010000" cont="0"/>
+        <request index="1"  response="111111111000000000000" foes="111111111100100100000" cont="0"/>
+        <request index="2"  response="110110110011011011000" foes="110110110011011011000" cont="0"/>
+        <request index="3"  response="000000000000000000000" foes="010010010001001000100" cont="0"/>
+        <request index="4"  response="000000000000000000000" foes="110110110011011000101" cont="0"/>
+        <request index="5"  response="001001001000000000010" foes="001001001111111000010" cont="0"/>
+        <request index="6"  response="000000000000000111000" foes="010010010001000111100" cont="0"/>
+        <request index="7"  response="000000000000000110000" foes="110110110011000110101" cont="0"/>
+        <request index="8"  response="001001001000000100010" foes="001001001111000100010" cont="0"/>
+        <request index="9"  response="000000000000111111000" foes="010010010000111111100" cont="0"/>
+        <request index="10" response="000000000000110110000" foes="110110110000110110101" cont="0"/>
+        <request index="11" response="001001001000100100010" foes="001001001000100100010" cont="0"/>
+        <request index="12" response="000000000000000000000" foes="001001000100100100010" cont="0"/>
+        <request index="13" response="000000000011011011000" foes="011011000011011011110" cont="0"/>
+        <request index="14" response="000000000010010010000" foes="111111000010010010111" cont="0"/>
+        <request index="15" response="000000111000000000000" foes="001000111100100100010" cont="0"/>
+        <request index="16" response="000000110011011011000" foes="011000110011011011110" cont="0"/>
+        <request index="17" response="000000100010010010000" foes="111000100010010010111" cont="0"/>
+        <request index="18" response="000111111000000000000" foes="000111111100100100010" cont="0"/>
+        <request index="19" response="000110110011011011000" foes="000110110011011011110" cont="0"/>
+        <request index="20" response="000100100010010010000" foes="000100100010010010111" cont="0"/>
+    </junction>
+    <junction id="enniskillen" type="right_before_left" x="1455.00" y="3062.00" incLanes="edge_69_0 edge_51_0" intLanes=":enniskillen_0_0 :enniskillen_1_0" shape="1462.79,3063.23 1461.96,3060.14 1459.67,3060.29 1458.74,3059.96 1457.96,3059.37 1457.32,3058.51 1456.82,3057.38 1451.10,3058.41 1451.80,3060.65 1453.01,3062.31 1454.71,3063.40 1456.90,3063.92 1459.60,3063.86">
+        <request index="0" response="00" foes="10" cont="0"/>
+        <request index="1" response="01" foes="01" cont="0"/>
+    </junction>
+    <junction id="galway" type="right_before_left" x="471.00" y="1741.00" incLanes="edge_57_0 edge_3_0 edge_89_0" intLanes=":galway_0_0 :galway_1_0 :galway_2_0" shape="479.02,1747.41 479.61,1746.60 480.28,1744.58 480.41,1741.39 478.56,1741.05 478.24,1740.71 478.33,1740.25 478.83,1739.68 479.73,1738.99 477.95,1736.34 476.05,1737.94 474.98,1739.64 474.74,1741.44 475.34,1743.33 476.77,1745.32">
+        <request index="0" response="000" foes="110" cont="0"/>
+        <request index="1" response="001" foes="101" cont="0"/>
+        <request index="2" response="011" foes="011" cont="0"/>
+    </junction>
+    <junction id="kilkenny" type="right_before_left" x="1686.00" y="957.00" incLanes="edge_26_0 edge_12_0 edge_84_0" intLanes=":kilkenny_0_0 :kilkenny_1_0 :kilkenny_2_0 :kilkenny_3_0 :kilkenny_4_0 :kilkenny_5_0 :kilkenny_6_0 :kilkenny_7_0 :kilkenny_8_0 :kilkenny_9_0 :kilkenny_10_0 :kilkenny_11_0 :kilkenny_12_0 :kilkenny_13_0 :kilkenny_14_0" shape="1685.98,984.82 1694.78,983.14 1693.78,978.10 1693.14,974.15 1692.86,971.27 1692.93,969.48 1693.36,968.78 1694.15,969.15 1696.35,966.83 1694.06,964.39 1692.30,961.91 1691.08,959.41 1690.39,956.88 1690.24,954.32 1690.63,951.74 1684.42,950.17 1683.59,951.99 1683.03,952.33 1682.39,952.28 1681.65,951.85 1680.82,951.03 1678.40,953.13 1680.16,955.43 1681.41,957.68 1682.16,959.89 1682.39,962.05 1682.12,964.17 1681.34,966.25 1684.19,967.69 1685.33,968.68 1685.65,971.55 1685.86,975.46 1685.96,980.02">
+        <request index="0"  response="000010000100000" foes="000010000100000" cont="0"/>
+        <request index="1"  response="000000000000000" foes="000100001000000" cont="0"/>
+        <request index="2"  response="000000000000000" foes="001100011000000" cont="0"/>
+        <request index="3"  response="000000000000000" foes="011100111000000" cont="0"/>
+        <request index="4"  response="000000000000000" foes="111101111000000" cont="0"/>
+        <request index="5"  response="000000000000000" foes="000010000000001" cont="0"/>
+        <request index="6"  response="000000000011110" foes="000110000011110" cont="0"/>
+        <request index="7"  response="000000000011100" foes="001110000011100" cont="0"/>
+        <request index="8"  response="000000000011000" foes="011110000011000" cont="0"/>
+        <request index="9"  response="000000000010000" foes="111110000010000" cont="0"/>
+        <request index="10" response="000001111100000" foes="000001111100001" cont="0"/>
+        <request index="11" response="000001111011110" foes="000001111011110" cont="0"/>
+        <request index="12" response="000001110011100" foes="000001110011100" cont="0"/>
+        <request index="13" response="000001100011000" foes="000001100011000" cont="0"/>
+        <request index="14" response="000001000010000" foes="000001000010000" cont="0"/>
+    </junction>
+    <junction id="letterkenny" type="right_before_left" x="1346.00" y="3806.00" incLanes="edge_25_0 edge_74_0" intLanes=":letterkenny_0_0 :letterkenny_1_0 :letterkenny_2_0 :letterkenny_3_0" shape="1350.89,3807.54 1349.73,3804.56 1348.33,3804.05 1348.44,3802.70 1349.09,3800.62 1350.28,3797.81 1352.02,3794.26 1349.17,3792.80 1347.90,3792.40 1343.44,3792.51 1344.53,3797.56 1345.67,3801.60 1346.88,3804.61 1348.16,3806.61 1349.49,3807.58">
+        <request index="0" response="1100" foes="1100" cont="0"/>
+        <request index="1" response="1000" foes="1000" cont="0"/>
+        <request index="2" response="0000" foes="0001" cont="0"/>
+        <request index="3" response="0000" foes="0011" cont="0"/>
+    </junction>
+    <junction id="limerick" type="right_before_left" x="745.00" y="957.00" incLanes="edge_6_0 edge_0_0" intLanes=":limerick_0_0 :limerick_1_0 :limerick_2_0 :limerick_3_0 :limerick_4_0 :limerick_5_0 :limerick_6_0 :limerick_7_0 :limerick_8_0 :limerick_9_0 :limerick_10_0 :limerick_11_0" shape="749.35,970.31 752.56,969.40 754.03,970.14 756.29,972.85 759.21,976.63 762.54,981.08 766.03,985.82 768.61,983.94 768.34,983.30 769.17,984.11 770.66,985.68 772.79,988.01 775.57,991.10 784.83,975.08 775.57,969.97 767.21,965.19 760.21,960.95 755.05,957.46 752.20,954.93 752.15,953.55 749.37,947.79 746.28,949.79 744.61,951.95 743.72,954.28 742.95,956.79 741.66,959.50 739.21,962.44 741.40,964.77 743.58,964.17 744.85,964.79 746.23,966.01 747.73,967.85">
+        <request index="0"  response="000100000000" foes="000100000000" cont="0"/>
+        <request index="1"  response="000000000000" foes="001000000000" cont="0"/>
+        <request index="2"  response="000000000000" foes="001000000000" cont="0"/>
+        <request index="3"  response="000000000000" foes="111000000000" cont="0"/>
+        <request index="4"  response="000111000000" foes="000111000000" cont="0"/>
+        <request index="5"  response="000110000000" foes="000110000000" cont="0"/>
+        <request index="6"  response="000000000000" foes="000000010000" cont="0"/>
+        <request index="7"  response="000000000000" foes="000000110000" cont="0"/>
+        <request index="8"  response="000000000000" foes="000000110001" cont="0"/>
+        <request index="9"  response="000000001110" foes="000000001110" cont="0"/>
+        <request index="10" response="000000001000" foes="000000001000" cont="0"/>
+        <request index="11" response="000000001000" foes="000000001000" cont="0"/>
+    </junction>
+    <junction id="longford" type="priority" x="1355.00" y="2316.00" incLanes="edge_63_0" intLanes=":longford_0_0 :longford_1_0 :longford_2_0 :longford_3_0" shape="1359.35,2321.83 1361.92,2319.92 1360.31,2317.60 1359.10,2315.49 1358.27,2313.57 1357.84,2311.86 1357.80,2310.34 1358.16,2309.03 1355.24,2307.71 1354.12,2309.56 1352.71,2310.76 1351.03,2311.30 1349.06,2311.20 1346.82,2310.44 1344.29,2309.03 1342.55,2311.72 1343.97,2312.98 1344.07,2313.47 1343.76,2313.87 1343.05,2314.18 1341.93,2314.39 1342.32,2317.56 1346.11,2317.18 1349.02,2317.09 1351.06,2317.28 1352.22,2317.76 1352.51,2318.52 1351.92,2319.56 1354.35,2321.65 1356.06,2320.33 1356.91,2320.18 1357.73,2320.39 1358.55,2320.93">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="monaghan" type="right_before_left" x="1836.00" y="2960.00" incLanes="edge_28_0 edge_90_0 edge_71_0 edge_55_0" intLanes=":monaghan_0_0 :monaghan_1_0 :monaghan_1_1 :monaghan_3_0 :monaghan_4_0 :monaghan_5_0 :monaghan_6_0 :monaghan_7_0 :monaghan_8_0 :monaghan_9_0 :monaghan_10_0 :monaghan_11_0 :monaghan_12_0 :monaghan_13_0 :monaghan_14_0 :monaghan_15_0 :monaghan_16_0" shape="1840.11,2966.22 1843.47,2960.96 1841.78,2959.37 1841.36,2958.44 1841.22,2957.44 1841.37,2956.36 1841.79,2955.19 1838.90,2953.83 1837.28,2955.99 1836.70,2955.60 1836.28,2954.23 1836.02,2951.89 1835.91,2948.56 1833.77,2948.78 1832.15,2949.50 1829.59,2951.42 1831.19,2953.92 1831.71,2955.70 1831.16,2956.77 1829.52,2957.12 1826.82,2956.75 1823.03,2955.66 1821.00,2961.73 1820.93,2964.03 1821.76,2967.13 1826.09,2966.08 1829.91,2965.39 1833.22,2965.06 1836.03,2965.09 1838.32,2965.48">
+        <request index="0"  response="00000000000000000" foes="01000100001000000" cont="0"/>
+        <request index="1"  response="00000000000000000" foes="11001100011000000" cont="0"/>
+        <request index="2"  response="00000000000000000" foes="11001100011000000" cont="0"/>
+        <request index="3"  response="00111111000000000" foes="00111111111000000" cont="0"/>
+        <request index="4"  response="00100010000100000" foes="00100010000100000" cont="0"/>
+        <request index="5"  response="00000000000000000" foes="00100010000010000" cont="0"/>
+        <request index="6"  response="00000000000001111" foes="01100110000001111" cont="0"/>
+        <request index="7"  response="00000000000001110" foes="01100110000001110" cont="0"/>
+        <request index="8"  response="00010001000001000" foes="00011101000001000" cont="0"/>
+        <request index="9"  response="00000000000000000" foes="00010000100001000" cont="0"/>
+        <request index="10" response="00000000011100000" foes="00110000011111000" cont="0"/>
+        <request index="11" response="00000000111000111" foes="01110000111001111" cont="0"/>
+        <request index="12" response="00000000100000110" foes="11110000100001110" cont="0"/>
+        <request index="13" response="00001111000000000" foes="00001111100001000" cont="0"/>
+        <request index="14" response="00001110011100000" foes="00001110011111000" cont="0"/>
+        <request index="15" response="00001100011000111" foes="00001100011000111" cont="0"/>
+        <request index="16" response="00001000000000110" foes="00001000000000110" cont="0"/>
+    </junction>
+    <junction id="naas" type="right_before_left" x="2086.00" y="1620.00" incLanes="edge_81_0 edge_22_0" intLanes=":naas_0_0 :naas_1_0 :naas_2_0 :naas_3_0" shape="2088.27,1615.56 2085.15,1616.27 2084.88,1618.15 2084.12,1618.64 2082.94,1618.82 2081.35,1618.70 2079.34,1618.28 2078.54,1621.38 2080.51,1622.33 2081.12,1623.03 2081.48,1623.89 2081.59,1624.91 2081.45,1626.08 2087.72,1627.39 2088.27,1624.90 2088.69,1623.03 2088.94,1621.47 2088.98,1619.90 2088.77,1618.04">
+        <request index="0" response="0000" foes="1000" cont="0"/>
+        <request index="1" response="0100" foes="0100" cont="0"/>
+        <request index="2" response="0000" foes="0010" cont="0"/>
+        <request index="3" response="0001" foes="0001" cont="0"/>
+    </junction>
+    <junction id="navan" type="priority" x="2086.00" y="2201.00" incLanes="edge_46_0" intLanes=":navan_0_0 :navan_1_0" shape="2087.17,2196.01 2084.28,2197.39 2082.91,2198.46 2080.88,2200.93 2082.85,2203.10 2083.39,2204.23 2083.63,2205.39 2083.57,2206.58 2083.21,2207.80 2086.17,2209.01 2087.12,2206.40 2087.76,2203.96 2088.08,2201.71 2088.09,2199.63 2087.79,2197.73">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="omagh" type="right_before_left" x="1610.00" y="3361.00" incLanes="edge_92_0 edge_64_0 edge_88_0 edge_70_0 edge_75_0 edge_75_1" intLanes=":omagh_0_0 :omagh_1_0 :omagh_2_0 :omagh_3_0 :omagh_4_0" shape="1623.01,3341.80 1618.64,3339.95 1617.98,3339.75 1609.73,3339.27 1609.69,3343.61 1609.44,3347.04 1608.99,3349.57 1608.33,3351.19 1607.47,3351.90 1606.41,3351.71 1603.32,3357.31 1606.50,3358.34 1609.72,3357.92 1612.98,3356.05 1616.29,3352.74 1619.63,3347.99">
+        <request index="0" response="10000" foes="11110" cont="0"/>
+        <request index="1" response="10001" foes="11101" cont="0"/>
+        <request index="2" response="10011" foes="11011" cont="0"/>
+        <request index="3" response="10111" foes="10111" cont="0"/>
+        <request index="4" response="00000" foes="01111" cont="0"/>
+    </junction>
+    <junction id="portlaoise" type="right_before_left" x="1686.00" y="1361.00" incLanes="edge_1_0 edge_91_0 edge_18_0 edge_85_0 edge_80_0" intLanes=":portlaoise_0_0 :portlaoise_1_0 :portlaoise_2_0 :portlaoise_3_0 :portlaoise_4_0 :portlaoise_5_0 :portlaoise_6_0 :portlaoise_7_0 :portlaoise_8_0 :portlaoise_9_0 :portlaoise_10_0 :portlaoise_11_0 :portlaoise_12_0 :portlaoise_13_0 :portlaoise_14_0 :portlaoise_15_0 :portlaoise_16_0 :portlaoise_17_0 :portlaoise_18_0 :portlaoise_19_0 :portlaoise_20_0 :portlaoise_21_0 :portlaoise_22_0 :portlaoise_23_0 :portlaoise_24_0 :portlaoise_25_0 :portlaoise_26_0 :portlaoise_27_0 :portlaoise_28_0 :portlaoise_29_0" shape="1681.90,1384.58 1695.24,1381.97 1695.87,1381.73 1698.76,1380.35 1697.48,1377.52 1696.67,1375.37 1696.32,1373.90 1696.44,1373.12 1697.02,1373.01 1698.06,1373.59 1699.93,1370.99 1700.40,1370.12 1701.57,1367.15 1696.95,1365.07 1693.47,1362.92 1691.14,1360.71 1689.94,1358.43 1689.89,1356.09 1690.98,1353.68 1688.33,1351.88 1686.80,1353.28 1686.01,1353.37 1685.20,1353.06 1684.38,1352.35 1683.55,1351.23 1678.16,1354.68 1676.76,1356.21 1675.29,1359.05 1676.86,1360.34 1677.60,1362.15 1677.52,1364.49 1676.60,1367.35 1674.86,1370.74 1672.29,1374.64 1680.44,1379.02 1681.40,1378.05 1681.71,1378.63 1681.89,1379.91 1681.96,1381.89">
+        <request index="0"  response="000000000000000000000000000000" foes="010000001000000010000001000000" cont="0"/>
+        <request index="1"  response="000000000000000000000000000000" foes="110000011000000110000011000000" cont="0"/>
+        <request index="2"  response="001111000000000000000000000000" foes="001111111000001110000111000000" cont="0"/>
+        <request index="3"  response="001110000111000000000000000000" foes="001110000111011110001111000000" cont="0"/>
+        <request index="4"  response="001100000110000000100000000000" foes="001100000110111110111111000000" cont="0"/>
+        <request index="5"  response="001000000100000101000000000000" foes="001000000100000101111111000000" cont="0"/>
+        <request index="6"  response="000000000000000000000000111111" foes="010000001000000010000000111111" cont="0"/>
+        <request index="7"  response="000000000000000000000000111110" foes="110000011000000110000000111110" cont="0"/>
+        <request index="8"  response="001111000000000000000000111100" foes="001111111000001110000000111100" cont="0"/>
+        <request index="9"  response="001110000111000000000000111000" foes="001110000111011110000000111000" cont="0"/>
+        <request index="10" response="001100000110000000000000110000" foes="001100000110111110000000110000" cont="0"/>
+        <request index="11" response="001000000100000001000000100000" foes="001000000100000001000000110000" cont="0"/>
+        <request index="12" response="000000000000000000000000000000" foes="001000000100000000100000100000" cont="0"/>
+        <request index="13" response="000000000000000000011111011111" foes="011000001100000000011111011111" cont="0"/>
+        <request index="14" response="000000000000000000011110011110" foes="111000011100000000011110111110" cont="0"/>
+        <request index="15" response="000111000000000000011100011100" foes="000111111100000000011100011100" cont="0"/>
+        <request index="16" response="000110000011000000011000011000" foes="000110000011000000011000011000" cont="0"/>
+        <request index="17" response="000100000010000000010000010000" foes="000100000010000000010000010000" cont="0"/>
+        <request index="18" response="000000000000000000000000000000" foes="000010000000010000001000001000" cont="0"/>
+        <request index="19" response="000000000000000000000000000000" foes="000110000000110000011000011000" cont="0"/>
+        <request index="20" response="000000000000001111000000000000" foes="001110000000001111111000111000" cont="0"/>
+        <request index="21" response="000000000000001110000111000111" foes="011110000000001110000111000111" cont="0"/>
+        <request index="22" response="000000000000001100000110000110" foes="111110000000001100000110000110" cont="0"/>
+        <request index="23" response="000001000000001000000100000100" foes="000001000000001000000100000100" cont="0"/>
+        <request index="24" response="000000000000000000000000000000" foes="000000100000001000000100000100" cont="0"/>
+        <request index="25" response="000000011111000000000000000000" foes="000000011111011000001100001100" cont="0"/>
+        <request index="26" response="000000011110000000000000000000" foes="000000011110111000011100011100" cont="0"/>
+        <request index="27" response="000000011100000111000000000000" foes="000000011100000111111100111100" cont="0"/>
+        <request index="28" response="000000011000000110000011000011" foes="000000011000000110000011000011" cont="0"/>
+        <request index="29" response="000000010000000100000010000010" foes="000000010000000100000010000010" cont="0"/>
+    </junction>
+    <junction id="roscommon" type="right_before_left" x="1046.00" y="2226.00" incLanes="edge_9_0 edge_37_0" intLanes=":roscommon_0_0 :roscommon_1_0 :roscommon_2_0 :roscommon_3_0" shape="1046.75,2229.93 1049.89,2229.33 1050.61,2226.56 1051.92,2225.25 1053.87,2223.99 1056.45,2222.78 1059.66,2221.62 1058.68,2218.57 1057.27,2218.35 1057.41,2217.45 1058.11,2216.04 1059.37,2214.11 1061.20,2211.65 1058.67,2209.69 1058.02,2209.28 1055.16,2207.84 1052.54,2212.33 1050.12,2215.67 1048.13,2218.49 1046.76,2221.39 1046.23,2224.99">
+        <request index="0" response="0000" foes="0100" cont="0"/>
+        <request index="1" response="0000" foes="1100" cont="0"/>
+        <request index="2" response="0011" foes="0011" cont="0"/>
+        <request index="3" response="0010" foes="0010" cont="0"/>
+    </junction>
+    <junction id="sligo" type="right_before_left" x="876.00" y="2956.00" incLanes="edge_42_0 edge_79_0" intLanes=":sligo_0_0 :sligo_1_0 :sligo_2_0 :sligo_3_0" shape="882.00,2959.31 885.09,2953.70 883.72,2951.66 883.70,2950.03 884.13,2948.00 885.00,2945.58 886.32,2942.75 883.47,2941.30 882.54,2940.97 879.41,2940.29 878.29,2945.02 877.19,2948.73 876.13,2951.43 875.09,2953.12 874.09,2953.78 873.11,2953.44 870.98,2955.83 872.95,2957.23 874.64,2957.82 876.22,2957.96 877.85,2958.02 879.72,2958.35">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="1100" cont="0"/>
+        <request index="2" response="0010" foes="0010" cont="0"/>
+        <request index="3" response="0010" foes="0010" cont="0"/>
+    </junction>
+    <junction id="tralee" type="right_before_left" x="0.00" y="486.00" incLanes="edge_5_0 edge_8_0 edge_65_0 edge_43_0 edge_82_0" intLanes=":tralee_0_0 :tralee_1_0 :tralee_2_0 :tralee_3_0 :tralee_4_0 :tralee_5_0 :tralee_6_0 :tralee_7_0 :tralee_8_0 :tralee_9_0 :tralee_10_0 :tralee_11_0 :tralee_12_0 :tralee_13_0 :tralee_14_0" shape="24.57,523.55 27.57,521.58 27.82,521.40 34.16,514.08 28.85,509.70 23.89,505.56 19.68,501.98 16.60,499.25 15.06,497.70 15.44,497.62 18.47,491.32 16.08,489.95 15.64,489.46 15.71,489.10 16.28,488.87 17.36,488.77 17.28,485.57 11.59,486.77 8.66,490.03 8.49,495.33 11.08,502.69 16.44,512.09">
+        <request index="0"  response="100010010000000" foes="100010010111000" cont="0"/>
+        <request index="1"  response="111000000000000" foes="111100100010000" cont="0"/>
+        <request index="2"  response="110011011000000" foes="110011011110000" cont="0"/>
+        <request index="3"  response="100010010000001" foes="100010010000001" cont="0"/>
+        <request index="4"  response="111000000000111" foes="111100100000111" cont="0"/>
+        <request index="5"  response="110011011000101" foes="110011011000101" cont="0"/>
+        <request index="6"  response="000000000000000" foes="010001000100100" cont="0"/>
+        <request index="7"  response="000000000000000" foes="110011000101101" cont="0"/>
+        <request index="8"  response="001000000010010" foes="001111000010010" cont="0"/>
+        <request index="9"  response="000000111000000" foes="010000111100100" cont="0"/>
+        <request index="10" response="000000110000000" foes="110000110101101" cont="0"/>
+        <request index="11" response="001000100010010" foes="001000100010010" cont="0"/>
+        <request index="12" response="000000000000000" foes="000100100010010" cont="0"/>
+        <request index="13" response="000011011000000" foes="000011011110110" cont="0"/>
+        <request index="14" response="000010010000000" foes="000010010111111" cont="0"/>
+    </junction>
+    <junction id="tullamore" type="right_before_left" x="1590.00" y="1725.00" incLanes="edge_27_0 edge_19_0 edge_17_0" intLanes=":tullamore_0_0 :tullamore_1_0 :tullamore_2_0 :tullamore_3_0 :tullamore_4_0 :tullamore_5_0 :tullamore_6_0 :tullamore_7_0 :tullamore_8_0" shape="1590.26,1746.16 1593.46,1746.12 1594.19,1746.04 1600.42,1743.75 1597.09,1737.33 1595.01,1732.41 1593.60,1728.21 1592.30,1723.96 1590.53,1718.87 1587.75,1712.18 1581.91,1714.80 1582.42,1716.64 1582.23,1717.12 1581.76,1717.29 1580.99,1717.17 1579.93,1716.76 1578.57,1719.66 1582.07,1721.88 1584.95,1724.98 1587.21,1728.95 1588.85,1733.81 1589.86,1739.54">
+        <request index="0" response="000000000" foes="010001000" cont="0"/>
+        <request index="1" response="000000000" foes="110011000" cont="0"/>
+        <request index="2" response="001000000" foes="001111000" cont="0"/>
+        <request index="3" response="000000111" foes="010000111" cont="0"/>
+        <request index="4" response="000000110" foes="110000110" cont="0"/>
+        <request index="5" response="001000100" foes="001000100" cont="0"/>
+        <request index="6" response="000000000" foes="000100100" cont="0"/>
+        <request index="7" response="000011011" foes="000011011" cont="0"/>
+        <request index="8" response="000010010" foes="000010010" cont="0"/>
+    </junction>
+    <junction id="waterford" type="right_before_left" x="1816.00" y="441.00" incLanes="edge_66_0 edge_10_0 edge_59_0 edge_50_0 edge_50_1 edge_41_0 edge_24_0" intLanes=":waterford_0_0 :waterford_1_0 :waterford_2_0 :waterford_3_0 :waterford_4_0 :waterford_5_0 :waterford_6_0 :waterford_7_0 :waterford_8_0 :waterford_9_0 :waterford_10_0 :waterford_11_0 :waterford_12_0 :waterford_13_0 :waterford_14_0 :waterford_15_0 :waterford_16_0 :waterford_17_0 :waterford_18_0 :waterford_19_0 :waterford_20_0 :waterford_21_0 :waterford_22_0 :waterford_23_0" shape="1813.12,480.78 1816.32,480.75 1816.67,480.73 1819.86,480.42 1820.02,478.16 1827.41,476.49 1824.09,465.64 1819.56,456.81 1813.83,450.00 1806.88,445.20 1798.73,442.42 1789.37,441.66 1789.45,444.86 1789.85,446.50 1795.47,456.44 1800.11,454.22 1803.62,453.50 1806.02,454.28 1807.29,456.57 1807.45,460.36 1806.49,465.66 1812.42,466.64 1812.74,466.45 1812.87,468.19 1812.97,471.16 1813.06,475.36">
+        <request index="0"  response="111100000000000000000000" foes="111110000100000100010000" cont="0"/>
+        <request index="1"  response="111001110000000000000000" foes="111001111100001100110000" cont="0"/>
+        <request index="2"  response="110001100011000000000000" foes="110001100011011101110000" cont="0"/>
+        <request index="3"  response="100001000010000000000000" foes="100001000010111111110000" cont="0"/>
+        <request index="4"  response="111100000000000000001111" foes="111110000100000100001111" cont="0"/>
+        <request index="5"  response="111001110000000000001110" foes="111001111100001100001110" cont="0"/>
+        <request index="6"  response="110001100011000000001100" foes="110001100011011100001100" cont="0"/>
+        <request index="7"  response="100001000010000000001000" foes="100001000010111100001000" cont="0"/>
+        <request index="8"  response="111100000000000011111111" foes="111110000100000011111111" cont="0"/>
+        <request index="9"  response="111001110000000011101110" foes="111001111100000011101110" cont="0"/>
+        <request index="10" response="110001100011000011001100" foes="110001100011000011001100" cont="0"/>
+        <request index="11" response="100001000010000010001000" foes="100001000010000010001000" cont="0"/>
+        <request index="12" response="000000000000000000000000" foes="010000100000010001000100" cont="0"/>
+        <request index="13" response="000000000000000000000000" foes="110001100000110011001100" cont="0"/>
+        <request index="14" response="001100000000001100110011" foes="101111100000001100110011" cont="0"/>
+        <request index="15" response="001000010000001000100010" foes="001000010000001000100010" cont="0"/>
+        <request index="16" response="000000000000000000000000" foes="001000001000001000100010" cont="0"/>
+        <request index="17" response="000000000111000000000000" foes="011000000111011001100110" cont="0"/>
+        <request index="18" response="000000000110000000000000" foes="111000000110111011101110" cont="0"/>
+        <request index="19" response="000100000100000100010001" foes="000100000100000100010001" cont="0"/>
+        <request index="20" response="000000000000000000000000" foes="000010000100000100010001" cont="0"/>
+        <request index="21" response="000001110000000000000000" foes="000001111100001100110011" cont="0"/>
+        <request index="22" response="000001100011000000000000" foes="000001100011011101110111" cont="0"/>
+        <request index="23" response="000001000110000000000000" foes="000001000110111111111111" cont="0"/>
+    </junction>
+    <junction id="wexford" type="right_before_left" x="2230.00" y="561.00" incLanes="edge_61_0 edge_44_0" intLanes=":wexford_0_0 :wexford_1_0 :wexford_2_0 :wexford_3_0" shape="2213.30,572.20 2215.62,575.05 2216.23,575.56 2218.87,577.36 2222.25,572.47 2224.96,568.71 2227.00,566.07 2228.38,564.55 2229.09,564.17 2229.14,564.91 2232.26,565.60 2230.86,563.14 2228.32,563.66 2224.54,565.34 2219.54,568.19">
+        <request index="0" response="0000" foes="0100" cont="0"/>
+        <request index="1" response="0000" foes="1100" cont="0"/>
+        <request index="2" response="0011" foes="0011" cont="0"/>
+        <request index="3" response="0010" foes="0010" cont="0"/>
+    </junction>
+
+    <connection from="edge_0" to="edge_53" fromLane="0" toLane="0" via=":limerick_6_0" dir="r" state="M"/>
+    <connection from="edge_0" to="edge_49" fromLane="0" toLane="0" via=":limerick_7_0" dir="r" state="M"/>
+    <connection from="edge_0" to="edge_51" fromLane="0" toLane="0" via=":limerick_8_0" dir="r" state="M"/>
+    <connection from="edge_0" to="edge_52" fromLane="0" toLane="0" via=":limerick_9_0" dir="R" state="="/>
+    <connection from="edge_0" to="edge_50" fromLane="0" toLane="1" via=":limerick_10_0" dir="l" state="="/>
+    <connection from="edge_0" to="edge_54" fromLane="0" toLane="0" via=":limerick_11_0" dir="t" state="="/>
+    <connection from="edge_1" to="edge_46" fromLane="0" toLane="0" via=":portlaoise_0_0" dir="r" state="M"/>
+    <connection from="edge_1" to="edge_45" fromLane="0" toLane="0" via=":portlaoise_1_0" dir="r" state="M"/>
+    <connection from="edge_1" to="edge_42" fromLane="0" toLane="0" via=":portlaoise_2_0" dir="r" state="="/>
+    <connection from="edge_1" to="edge_43" fromLane="0" toLane="0" via=":portlaoise_3_0" dir="s" state="="/>
+    <connection from="edge_1" to="edge_47" fromLane="0" toLane="0" via=":portlaoise_4_0" dir="L" state="="/>
+    <connection from="edge_1" to="edge_44" fromLane="0" toLane="0" via=":portlaoise_5_0" dir="l" state="="/>
+    <connection from="edge_10" to="edge_84" fromLane="0" toLane="0" via=":waterford_4_0" dir="r" state="="/>
+    <connection from="edge_10" to="edge_83" fromLane="0" toLane="0" via=":waterford_5_0" dir="r" state="="/>
+    <connection from="edge_10" to="edge_82" fromLane="0" toLane="0" via=":waterford_6_0" dir="R" state="="/>
+    <connection from="edge_10" to="edge_81" fromLane="0" toLane="0" via=":waterford_7_0" dir="l" state="="/>
+    <connection from="edge_11" to="edge_18" fromLane="0" toLane="0" via=":cork_4_0" dir="r" state="M"/>
+    <connection from="edge_11" to="edge_19" fromLane="0" toLane="0" via=":cork_5_0" dir="r" state="="/>
+    <connection from="edge_12" to="edge_40" fromLane="0" toLane="0" via=":kilkenny_5_0" dir="r" state="M"/>
+    <connection from="edge_12" to="edge_38" fromLane="0" toLane="0" via=":kilkenny_6_0" dir="r" state="="/>
+    <connection from="edge_12" to="edge_37" fromLane="0" toLane="0" via=":kilkenny_7_0" dir="r" state="="/>
+    <connection from="edge_12" to="edge_39" fromLane="0" toLane="0" via=":kilkenny_8_0" dir="s" state="="/>
+    <connection from="edge_12" to="edge_41" fromLane="0" toLane="0" via=":kilkenny_9_0" dir="l" state="="/>
+    <connection from="edge_13" to="edge_22" fromLane="0" toLane="0" via=":derry_6_0" dir="r" state="M"/>
+    <connection from="edge_13" to="edge_20" fromLane="0" toLane="0" via=":derry_7_0" dir="r" state="="/>
+    <connection from="edge_13" to="edge_21" fromLane="0" toLane="0" via=":derry_8_0" dir="t" state="="/>
+    <connection from="edge_14" to="edge_9" fromLane="0" toLane="0" via=":carlow_4_0" dir="r" state="="/>
+    <connection from="edge_14" to="edge_12" fromLane="0" toLane="0" via=":carlow_5_0" dir="R" state="="/>
+    <connection from="edge_14" to="edge_11" fromLane="0" toLane="0" via=":carlow_6_0" dir="R" state="="/>
+    <connection from="edge_14" to="edge_10" fromLane="0" toLane="0" via=":carlow_7_0" dir="s" state="="/>
+    <connection from="edge_15" to="edge_7" fromLane="0" toLane="0" via=":craigavon_2_0" dir="l" state="="/>
+    <connection from="edge_15" to="edge_8" fromLane="0" toLane="0" via=":craigavon_3_0" dir="t" state="="/>
+    <connection from="edge_16" to="edge_77" fromLane="0" toLane="0" via=":clonmel_3_0" dir="l" state="="/>
+    <connection from="edge_16" to="edge_78" fromLane="0" toLane="0" via=":clonmel_4_0" dir="l" state="="/>
+    <connection from="edge_16" to="edge_79" fromLane="0" toLane="0" via=":clonmel_5_0" dir="l" state="="/>
+    <connection from="edge_17" to="edge_72" fromLane="0" toLane="0" via=":tullamore_6_0" dir="r" state="M"/>
+    <connection from="edge_17" to="edge_71" fromLane="0" toLane="0" via=":tullamore_7_0" dir="L" state="="/>
+    <connection from="edge_17" to="edge_70" fromLane="0" toLane="0" via=":tullamore_8_0" dir="l" state="="/>
+    <connection from="edge_18" to="edge_44" fromLane="0" toLane="0" via=":portlaoise_12_0" dir="r" state="M"/>
+    <connection from="edge_18" to="edge_46" fromLane="0" toLane="0" via=":portlaoise_13_0" dir="s" state="="/>
+    <connection from="edge_18" to="edge_45" fromLane="0" toLane="0" via=":portlaoise_14_0" dir="L" state="="/>
+    <connection from="edge_18" to="edge_42" fromLane="0" toLane="0" via=":portlaoise_15_0" dir="L" state="="/>
+    <connection from="edge_18" to="edge_43" fromLane="0" toLane="0" via=":portlaoise_16_0" dir="l" state="="/>
+    <connection from="edge_18" to="edge_47" fromLane="0" toLane="0" via=":portlaoise_17_0" dir="t" state="="/>
+    <connection from="edge_19" to="edge_71" fromLane="0" toLane="0" via=":tullamore_3_0" dir="s" state="="/>
+    <connection from="edge_19" to="edge_70" fromLane="0" toLane="0" via=":tullamore_4_0" dir="L" state="="/>
+    <connection from="edge_19" to="edge_72" fromLane="0" toLane="0" via=":tullamore_5_0" dir="t" state="="/>
+    <connection from="edge_2" to="edge_17" fromLane="0" toLane="0" via=":ennis_3_0" dir="r" state="M"/>
+    <connection from="edge_2" to="edge_15" fromLane="0" toLane="0" via=":ennis_4_0" dir="r" state="M"/>
+    <connection from="edge_2" to="edge_16" fromLane="0" toLane="0" via=":ennis_5_0" dir="l" state="="/>
+    <connection from="edge_20" to="edge_5" fromLane="0" toLane="0" via=":antrim_2_0" dir="r" state="M"/>
+    <connection from="edge_20" to="edge_6" fromLane="0" toLane="0" via=":antrim_3_0" dir="r" state="M"/>
+    <connection from="edge_21" to="edge_14" fromLane="0" toLane="0" via=":cavan_6_0" dir="s" state="="/>
+    <connection from="edge_21" to="edge_13" fromLane="0" toLane="0" via=":cavan_7_0" dir="t" state="="/>
+    <connection from="edge_22" to="edge_36" fromLane="0" toLane="0" via=":naas_2_0" dir="r" state="M"/>
+    <connection from="edge_22" to="edge_35" fromLane="0" toLane="0" via=":naas_3_0" dir="t" state="="/>
+    <connection from="edge_23" to="edge_91" fromLane="0" toLane="0" via=":bray_6_0" dir="r" state="="/>
+    <connection from="edge_23" to="edge_90" fromLane="0" toLane="0" via=":bray_7_0" dir="l" state="="/>
+    <connection from="edge_23" to="edge_92" fromLane="0" toLane="0" via=":bray_8_0" dir="t" state="="/>
+    <connection from="edge_24" to="edge_84" fromLane="0" toLane="0" via=":waterford_20_0" dir="r" state="M"/>
+    <connection from="edge_24" to="edge_83" fromLane="0" toLane="0" via=":waterford_21_0" dir="r" state="="/>
+    <connection from="edge_24" to="edge_82" fromLane="0" toLane="0" via=":waterford_22_0" dir="r" state="="/>
+    <connection from="edge_24" to="edge_81" fromLane="0" toLane="0" via=":waterford_23_0" dir="l" state="="/>
+    <connection from="edge_25" to="edge_24" fromLane="0" toLane="0" via=":letterkenny_0_0" dir="l" state="="/>
+    <connection from="edge_25" to="edge_23" fromLane="0" toLane="0" via=":letterkenny_1_0" dir="l" state="="/>
+    <connection from="edge_26" to="edge_40" fromLane="0" toLane="0" via=":kilkenny_0_0" dir="r" state="="/>
+    <connection from="edge_26" to="edge_38" fromLane="0" toLane="0" via=":kilkenny_1_0" dir="r" state="M"/>
+    <connection from="edge_26" to="edge_37" fromLane="0" toLane="0" via=":kilkenny_2_0" dir="r" state="M"/>
+    <connection from="edge_26" to="edge_39" fromLane="0" toLane="0" via=":kilkenny_3_0" dir="s" state="M"/>
+    <connection from="edge_26" to="edge_41" fromLane="0" toLane="0" via=":kilkenny_4_0" dir="L" state="M"/>
+    <connection from="edge_27" to="edge_71" fromLane="0" toLane="0" via=":tullamore_0_0" dir="r" state="M"/>
+    <connection from="edge_27" to="edge_70" fromLane="0" toLane="0" via=":tullamore_1_0" dir="r" state="M"/>
+    <connection from="edge_27" to="edge_72" fromLane="0" toLane="0" via=":tullamore_2_0" dir="s" state="="/>
+    <connection from="edge_28" to="edge_69" fromLane="0" toLane="0" via=":monaghan_0_0" dir="r" state="M"/>
+    <connection from="edge_28" to="edge_67" fromLane="0" toLane="0" via=":monaghan_1_0" dir="s" state="M"/>
+    <connection from="edge_28" to="edge_67" fromLane="0" toLane="1" via=":monaghan_1_1" dir="s" state="M"/>
+    <connection from="edge_28" to="edge_66" fromLane="0" toLane="0" via=":monaghan_3_0" dir="l" state="="/>
+    <connection from="edge_28" to="edge_68" fromLane="0" toLane="0" via=":monaghan_4_0" dir="t" state="="/>
+    <connection from="edge_29" to="edge_4" fromLane="0" toLane="0" via=":dublin_0_0" dir="r" state="M"/>
+    <connection from="edge_29" to="edge_3" fromLane="0" toLane="0" via=":dublin_1_0" dir="R" state="="/>
+    <connection from="edge_29" to="edge_2" fromLane="0" toLane="0" via=":dublin_2_0" dir="R" state="="/>
+    <connection from="edge_29" to="edge_0" fromLane="0" toLane="0" via=":dublin_3_0" dir="R" state="="/>
+    <connection from="edge_29" to="edge_1" fromLane="0" toLane="0" via=":dublin_4_0" dir="R" state="="/>
+    <connection from="edge_3" to="edge_31" fromLane="0" toLane="0" via=":galway_1_0" dir="r" state="="/>
+    <connection from="edge_30" to="edge_87" fromLane="0" toLane="0" via=":athlone_0_0" dir="r" state="M"/>
+    <connection from="edge_30" to="edge_85" fromLane="0" toLane="0" via=":athlone_1_0" dir="L" state="M"/>
+    <connection from="edge_30" to="edge_86" fromLane="0" toLane="0" via=":athlone_2_0" dir="l" state="M"/>
+    <connection from="edge_31" to="edge_27" fromLane="0" toLane="0" via=":belfast_5_0" dir="r" state="M"/>
+    <connection from="edge_31" to="edge_26" fromLane="0" toLane="0" via=":belfast_6_0" dir="r" state="="/>
+    <connection from="edge_31" to="edge_29" fromLane="0" toLane="0" via=":belfast_7_0" dir="r" state="="/>
+    <connection from="edge_31" to="edge_25" fromLane="0" toLane="0" via=":belfast_8_0" dir="l" state="="/>
+    <connection from="edge_31" to="edge_28" fromLane="0" toLane="0" via=":belfast_9_0" dir="t" state="="/>
+    <connection from="edge_32" to="edge_90" fromLane="0" toLane="0" via=":bray_0_0" dir="l" state="M"/>
+    <connection from="edge_32" to="edge_92" fromLane="0" toLane="0" via=":bray_1_0" dir="l" state="="/>
+    <connection from="edge_32" to="edge_91" fromLane="0" toLane="0" via=":bray_2_0" dir="t" state="="/>
+    <connection from="edge_33" to="edge_16" fromLane="0" toLane="0" via=":ennis_15_0" dir="r" state="="/>
+    <connection from="edge_33" to="edge_17" fromLane="0" toLane="0" via=":ennis_16_0" dir="R" state="="/>
+    <connection from="edge_33" to="edge_15" fromLane="0" toLane="0" via=":ennis_17_0" dir="s" state="="/>
+    <connection from="edge_34" to="edge_14" fromLane="0" toLane="0" via=":cavan_4_0" dir="r" state="="/>
+    <connection from="edge_34" to="edge_13" fromLane="0" toLane="0" via=":cavan_5_0" dir="s" state="="/>
+    <connection from="edge_35" to="edge_20" fromLane="0" toLane="0" via=":derry_3_0" dir="r" state="="/>
+    <connection from="edge_35" to="edge_21" fromLane="0" toLane="0" via=":derry_4_0" dir="l" state="="/>
+    <connection from="edge_35" to="edge_22" fromLane="0" toLane="0" via=":derry_5_0" dir="t" state="="/>
+    <connection from="edge_36" to="edge_17" fromLane="0" toLane="0" via=":ennis_6_0" dir="r" state="="/>
+    <connection from="edge_36" to="edge_15" fromLane="0" toLane="0" via=":ennis_7_0" dir="r" state="="/>
+    <connection from="edge_36" to="edge_16" fromLane="0" toLane="0" via=":ennis_8_0" dir="l" state="="/>
+    <connection from="edge_37" to="edge_73" fromLane="0" toLane="0" via=":roscommon_2_0" dir="r" state="="/>
+    <connection from="edge_37" to="edge_74" fromLane="0" toLane="0" via=":roscommon_3_0" dir="s" state="="/>
+    <connection from="edge_38" to="edge_14" fromLane="0" toLane="0" via=":cavan_0_0" dir="r" state="M"/>
+    <connection from="edge_38" to="edge_13" fromLane="0" toLane="0" via=":cavan_1_0" dir="s" state="M"/>
+    <connection from="edge_39" to="edge_77" fromLane="0" toLane="0" via=":clonmel_0_0" dir="r" state="M"/>
+    <connection from="edge_39" to="edge_78" fromLane="0" toLane="0" via=":clonmel_1_0" dir="r" state="M"/>
+    <connection from="edge_39" to="edge_79" fromLane="0" toLane="0" via=":clonmel_2_0" dir="r" state="M"/>
+    <connection from="edge_4" to="edge_20" fromLane="0" toLane="0" via=":derry_0_0" dir="r" state="M"/>
+    <connection from="edge_4" to="edge_21" fromLane="0" toLane="0" via=":derry_1_0" dir="l" state="="/>
+    <connection from="edge_4" to="edge_22" fromLane="0" toLane="0" via=":derry_2_0" dir="l" state="="/>
+    <connection from="edge_40" to="edge_7" fromLane="0" toLane="0" via=":craigavon_0_0" dir="l" state="M"/>
+    <connection from="edge_40" to="edge_8" fromLane="0" toLane="0" via=":craigavon_1_0" dir="l" state="="/>
+    <connection from="edge_41" to="edge_83" fromLane="0" toLane="0" via=":waterford_16_0" dir="r" state="M"/>
+    <connection from="edge_41" to="edge_82" fromLane="0" toLane="0" via=":waterford_17_0" dir="r" state="="/>
+    <connection from="edge_41" to="edge_81" fromLane="0" toLane="0" via=":waterford_18_0" dir="l" state="="/>
+    <connection from="edge_41" to="edge_84" fromLane="0" toLane="0" via=":waterford_19_0" dir="t" state="="/>
+    <connection from="edge_42" to="edge_75" fromLane="0" toLane="0" via=":sligo_0_0" dir="r" state="M"/>
+    <connection from="edge_42" to="edge_76" fromLane="0" toLane="0" via=":sligo_1_0" dir="l" state="M"/>
+    <connection from="edge_43" to="edge_34" fromLane="0" toLane="0" via=":tralee_9_0" dir="r" state="="/>
+    <connection from="edge_43" to="edge_33" fromLane="0" toLane="0" via=":tralee_10_0" dir="r" state="="/>
+    <connection from="edge_43" to="edge_32" fromLane="0" toLane="0" via=":tralee_11_0" dir="t" state="="/>
+    <connection from="edge_44" to="edge_89" fromLane="0" toLane="0" via=":wexford_2_0" dir="r" state="="/>
+    <connection from="edge_44" to="edge_88" fromLane="0" toLane="0" via=":wexford_3_0" dir="l" state="="/>
+    <connection from="edge_45" to="edge_5" fromLane="0" toLane="0" via=":antrim_0_0" dir="l" state="="/>
+    <connection from="edge_45" to="edge_6" fromLane="0" toLane="0" via=":antrim_1_0" dir="t" state="="/>
+    <connection from="edge_46" to="edge_64" fromLane="0" toLane="0" via=":navan_0_0" dir="L" state="M"/>
+    <connection from="edge_46" to="edge_65" fromLane="0" toLane="0" via=":navan_1_0" dir="l" state="M"/>
+    <connection from="edge_47" to="edge_19" fromLane="0" toLane="0" via=":cork_2_0" dir="r" state="M"/>
+    <connection from="edge_47" to="edge_18" fromLane="0" toLane="0" via=":cork_3_0" dir="t" state="="/>
+    <connection from="edge_48" to="edge_91" fromLane="0" toLane="0" via=":bray_3_0" dir="r" state="M"/>
+    <connection from="edge_48" to="edge_90" fromLane="0" toLane="0" via=":bray_4_0" dir="l" state="="/>
+    <connection from="edge_48" to="edge_92" fromLane="0" toLane="0" via=":bray_5_0" dir="l" state="="/>
+    <connection from="edge_49" to="edge_27" fromLane="0" toLane="0" via=":belfast_0_0" dir="r" state="="/>
+    <connection from="edge_49" to="edge_26" fromLane="0" toLane="0" via=":belfast_1_0" dir="r" state="M"/>
+    <connection from="edge_49" to="edge_29" fromLane="0" toLane="0" via=":belfast_2_0" dir="r" state="M"/>
+    <connection from="edge_49" to="edge_25" fromLane="0" toLane="0" via=":belfast_3_0" dir="l" state="M"/>
+    <connection from="edge_49" to="edge_28" fromLane="0" toLane="0" via=":belfast_4_0" dir="l" state="M"/>
+    <connection from="edge_5" to="edge_33" fromLane="0" toLane="0" via=":tralee_0_0" dir="r" state="="/>
+    <connection from="edge_5" to="edge_32" fromLane="0" toLane="0" via=":tralee_1_0" dir="l" state="="/>
+    <connection from="edge_5" to="edge_34" fromLane="0" toLane="0" via=":tralee_2_0" dir="l" state="="/>
+    <connection from="edge_50" to="edge_82" fromLane="0" toLane="0" via=":waterford_12_0" dir="r" state="M"/>
+    <connection from="edge_50" to="edge_81" fromLane="0" toLane="0" via=":waterford_13_0" dir="l" state="M"/>
+    <connection from="edge_50" to="edge_84" fromLane="1" toLane="0" via=":waterford_14_0" dir="l" state="="/>
+    <connection from="edge_50" to="edge_83" fromLane="1" toLane="0" via=":waterford_15_0" dir="t" state="="/>
+    <connection from="edge_51" to="edge_30" fromLane="0" toLane="0" via=":enniskillen_1_0" dir="r" state="="/>
+    <connection from="edge_52" to="edge_16" fromLane="0" toLane="0" via=":ennis_12_0" dir="r" state="M"/>
+    <connection from="edge_52" to="edge_17" fromLane="0" toLane="0" via=":ennis_13_0" dir="r" state="="/>
+    <connection from="edge_52" to="edge_15" fromLane="0" toLane="0" via=":ennis_14_0" dir="R" state="="/>
+    <connection from="edge_53" to="edge_59" fromLane="0" toLane="0" via=":dundalk_0_0" dir="r" state="M"/>
+    <connection from="edge_53" to="edge_60" fromLane="0" toLane="0" via=":dundalk_1_0" dir="t" state="M"/>
+    <connection from="edge_54" to="edge_1" fromLane="0" toLane="0" via=":dublin_5_0" dir="r" state="="/>
+    <connection from="edge_54" to="edge_4" fromLane="0" toLane="0" via=":dublin_6_0" dir="L" state="="/>
+    <connection from="edge_54" to="edge_3" fromLane="0" toLane="0" via=":dublin_7_0" dir="l" state="="/>
+    <connection from="edge_54" to="edge_2" fromLane="0" toLane="0" via=":dublin_8_0" dir="l" state="="/>
+    <connection from="edge_54" to="edge_0" fromLane="0" toLane="0" via=":dublin_9_0" dir="t" state="="/>
+    <connection from="edge_55" to="edge_66" fromLane="0" toLane="0" via=":monaghan_13_0" dir="r" state="="/>
+    <connection from="edge_55" to="edge_68" fromLane="0" toLane="0" via=":monaghan_14_0" dir="s" state="="/>
+    <connection from="edge_55" to="edge_69" fromLane="0" toLane="0" via=":monaghan_15_0" dir="l" state="="/>
+    <connection from="edge_55" to="edge_67" fromLane="0" toLane="1" via=":monaghan_16_0" dir="l" state="="/>
+    <connection from="edge_56" to="edge_48" fromLane="0" toLane="0" via=":carrick_1_0" dir="r" state="="/>
+    <connection from="edge_57" to="edge_31" fromLane="0" toLane="0" via=":galway_0_0" dir="r" state="M"/>
+    <connection from="edge_58" to="edge_9" fromLane="0" toLane="0" via=":carlow_0_0" dir="r" state="M"/>
+    <connection from="edge_58" to="edge_12" fromLane="0" toLane="0" via=":carlow_1_0" dir="R" state="M"/>
+    <connection from="edge_58" to="edge_11" fromLane="0" toLane="0" via=":carlow_2_0" dir="R" state="M"/>
+    <connection from="edge_58" to="edge_10" fromLane="0" toLane="0" via=":carlow_3_0" dir="s" state="M"/>
+    <connection from="edge_59" to="edge_84" fromLane="0" toLane="0" via=":waterford_8_0" dir="r" state="="/>
+    <connection from="edge_59" to="edge_83" fromLane="0" toLane="0" via=":waterford_9_0" dir="r" state="="/>
+    <connection from="edge_59" to="edge_82" fromLane="0" toLane="0" via=":waterford_10_0" dir="R" state="="/>
+    <connection from="edge_59" to="edge_81" fromLane="0" toLane="0" via=":waterford_11_0" dir="t" state="="/>
+    <connection from="edge_6" to="edge_51" fromLane="0" toLane="0" via=":limerick_0_0" dir="r" state="="/>
+    <connection from="edge_6" to="edge_52" fromLane="0" toLane="0" via=":limerick_1_0" dir="r" state="M"/>
+    <connection from="edge_6" to="edge_50" fromLane="0" toLane="0" via=":limerick_2_0" dir="l" state="M"/>
+    <connection from="edge_6" to="edge_54" fromLane="0" toLane="0" via=":limerick_3_0" dir="l" state="M"/>
+    <connection from="edge_6" to="edge_53" fromLane="0" toLane="0" via=":limerick_4_0" dir="l" state="="/>
+    <connection from="edge_6" to="edge_49" fromLane="0" toLane="0" via=":limerick_5_0" dir="t" state="="/>
+    <connection from="edge_60" to="edge_15" fromLane="0" toLane="0" via=":ennis_0_0" dir="r" state="="/>
+    <connection from="edge_60" to="edge_16" fromLane="0" toLane="0" via=":ennis_1_0" dir="l" state="="/>
+    <connection from="edge_60" to="edge_17" fromLane="0" toLane="0" via=":ennis_2_0" dir="t" state="="/>
+    <connection from="edge_61" to="edge_89" fromLane="0" toLane="0" via=":wexford_0_0" dir="r" state="M"/>
+    <connection from="edge_61" to="edge_88" fromLane="0" toLane="0" via=":wexford_1_0" dir="l" state="M"/>
+    <connection from="edge_62" to="edge_16" fromLane="0" toLane="0" via=":ennis_18_0" dir="L" state="="/>
+    <connection from="edge_62" to="edge_17" fromLane="1" toLane="0" via=":ennis_19_0" dir="l" state="="/>
+    <connection from="edge_62" to="edge_15" fromLane="1" toLane="0" via=":ennis_20_0" dir="l" state="="/>
+    <connection from="edge_63" to="edge_57" fromLane="0" toLane="0" via=":longford_0_0" dir="r" state="M"/>
+    <connection from="edge_63" to="edge_58" fromLane="0" toLane="0" via=":longford_1_0" dir="R" state="M"/>
+    <connection from="edge_63" to="edge_55" fromLane="0" toLane="0" via=":longford_2_0" dir="L" state="M"/>
+    <connection from="edge_63" to="edge_56" fromLane="0" toLane="0" via=":longford_3_0" dir="l" state="M"/>
+    <connection from="edge_64" to="edge_80" fromLane="0" toLane="0" via=":omagh_1_0" dir="l" state="="/>
+    <connection from="edge_65" to="edge_34" fromLane="0" toLane="0" via=":tralee_6_0" dir="r" state="M"/>
+    <connection from="edge_65" to="edge_33" fromLane="0" toLane="0" via=":tralee_7_0" dir="r" state="M"/>
+    <connection from="edge_65" to="edge_32" fromLane="0" toLane="0" via=":tralee_8_0" dir="l" state="="/>
+    <connection from="edge_66" to="edge_84" fromLane="0" toLane="0" via=":waterford_0_0" dir="r" state="="/>
+    <connection from="edge_66" to="edge_83" fromLane="0" toLane="0" via=":waterford_1_0" dir="r" state="="/>
+    <connection from="edge_66" to="edge_82" fromLane="0" toLane="0" via=":waterford_2_0" dir="r" state="="/>
+    <connection from="edge_66" to="edge_81" fromLane="0" toLane="0" via=":waterford_3_0" dir="l" state="="/>
+    <connection from="edge_67" to="edge_62" fromLane="0" toLane="1" via=":castlebar_3_0" dir="L" state="="/>
+    <connection from="edge_67" to="edge_61" fromLane="1" toLane="0" via=":castlebar_4_0" dir="l" state="="/>
+    <connection from="edge_67" to="edge_63" fromLane="1" toLane="0" via=":castlebar_5_0" dir="l" state="="/>
+    <connection from="edge_68" to="edge_8" fromLane="0" toLane="0" via=":craigavon_4_0" dir="r" state="M"/>
+    <connection from="edge_68" to="edge_7" fromLane="0" toLane="0" via=":craigavon_5_0" dir="t" state="="/>
+    <connection from="edge_69" to="edge_30" fromLane="0" toLane="0" via=":enniskillen_0_0" dir="l" state="M"/>
+    <connection from="edge_7" to="edge_48" fromLane="0" toLane="0" via=":carrick_0_0" dir="l" state="M"/>
+    <connection from="edge_70" to="edge_80" fromLane="0" toLane="0" via=":omagh_3_0" dir="t" state="="/>
+    <connection from="edge_71" to="edge_66" fromLane="0" toLane="0" via=":monaghan_9_0" dir="r" state="M"/>
+    <connection from="edge_71" to="edge_68" fromLane="0" toLane="0" via=":monaghan_10_0" dir="R" state="="/>
+    <connection from="edge_71" to="edge_69" fromLane="0" toLane="0" via=":monaghan_11_0" dir="L" state="="/>
+    <connection from="edge_71" to="edge_67" fromLane="0" toLane="1" via=":monaghan_12_0" dir="l" state="="/>
+    <connection from="edge_72" to="edge_18" fromLane="0" toLane="0" via=":cork_0_0" dir="l" state="="/>
+    <connection from="edge_72" to="edge_19" fromLane="0" toLane="0" via=":cork_1_0" dir="t" state="="/>
+    <connection from="edge_73" to="edge_3" fromLane="0" toLane="0" via=":dublin_15_0" dir="r" state="="/>
+    <connection from="edge_73" to="edge_2" fromLane="0" toLane="0" via=":dublin_16_0" dir="r" state="="/>
+    <connection from="edge_73" to="edge_0" fromLane="0" toLane="0" via=":dublin_17_0" dir="r" state="="/>
+    <connection from="edge_73" to="edge_1" fromLane="0" toLane="0" via=":dublin_18_0" dir="r" state="="/>
+    <connection from="edge_73" to="edge_4" fromLane="0" toLane="0" via=":dublin_19_0" dir="l" state="="/>
+    <connection from="edge_74" to="edge_24" fromLane="0" toLane="0" via=":letterkenny_2_0" dir="r" state="M"/>
+    <connection from="edge_74" to="edge_23" fromLane="0" toLane="0" via=":letterkenny_3_0" dir="r" state="M"/>
+    <connection from="edge_75" to="edge_80" fromLane="0" toLane="0" via=":omagh_4_0" dir="r" state="M"/>
+    <connection from="edge_76" to="edge_62" fromLane="0" toLane="0" via=":castlebar_0_0" dir="L" state="M"/>
+    <connection from="edge_76" to="edge_61" fromLane="0" toLane="0" via=":castlebar_1_0" dir="l" state="M"/>
+    <connection from="edge_76" to="edge_63" fromLane="0" toLane="0" via=":castlebar_2_0" dir="l" state="="/>
+    <connection from="edge_77" to="edge_14" fromLane="0" toLane="0" via=":cavan_2_0" dir="r" state="="/>
+    <connection from="edge_77" to="edge_13" fromLane="0" toLane="0" via=":cavan_3_0" dir="s" state="="/>
+    <connection from="edge_78" to="edge_21" fromLane="0" toLane="0" via=":derry_9_0" dir="r" state="M"/>
+    <connection from="edge_78" to="edge_22" fromLane="0" toLane="0" via=":derry_10_0" dir="r" state="="/>
+    <connection from="edge_78" to="edge_20" fromLane="0" toLane="0" via=":derry_11_0" dir="r" state="="/>
+    <connection from="edge_79" to="edge_75" fromLane="0" toLane="1" via=":sligo_2_0" dir="r" state="="/>
+    <connection from="edge_79" to="edge_76" fromLane="0" toLane="0" via=":sligo_3_0" dir="l" state="="/>
+    <connection from="edge_8" to="edge_33" fromLane="0" toLane="0" via=":tralee_3_0" dir="r" state="="/>
+    <connection from="edge_8" to="edge_32" fromLane="0" toLane="0" via=":tralee_4_0" dir="l" state="="/>
+    <connection from="edge_8" to="edge_34" fromLane="0" toLane="0" via=":tralee_5_0" dir="t" state="="/>
+    <connection from="edge_80" to="edge_42" fromLane="0" toLane="0" via=":portlaoise_24_0" dir="r" state="M"/>
+    <connection from="edge_80" to="edge_43" fromLane="0" toLane="0" via=":portlaoise_25_0" dir="R" state="="/>
+    <connection from="edge_80" to="edge_47" fromLane="0" toLane="0" via=":portlaoise_26_0" dir="R" state="="/>
+    <connection from="edge_80" to="edge_44" fromLane="0" toLane="0" via=":portlaoise_27_0" dir="s" state="="/>
+    <connection from="edge_80" to="edge_46" fromLane="0" toLane="0" via=":portlaoise_28_0" dir="l" state="="/>
+    <connection from="edge_80" to="edge_45" fromLane="0" toLane="0" via=":portlaoise_29_0" dir="t" state="="/>
+    <connection from="edge_81" to="edge_35" fromLane="0" toLane="0" via=":naas_0_0" dir="s" state="M"/>
+    <connection from="edge_81" to="edge_36" fromLane="0" toLane="0" via=":naas_1_0" dir="l" state="="/>
+    <connection from="edge_82" to="edge_32" fromLane="0" toLane="0" via=":tralee_12_0" dir="r" state="M"/>
+    <connection from="edge_82" to="edge_34" fromLane="0" toLane="0" via=":tralee_13_0" dir="r" state="="/>
+    <connection from="edge_82" to="edge_33" fromLane="0" toLane="0" via=":tralee_14_0" dir="r" state="="/>
+    <connection from="edge_83" to="edge_17" fromLane="0" toLane="0" via=":ennis_9_0" dir="r" state="="/>
+    <connection from="edge_83" to="edge_15" fromLane="0" toLane="0" via=":ennis_10_0" dir="r" state="="/>
+    <connection from="edge_83" to="edge_16" fromLane="0" toLane="0" via=":ennis_11_0" dir="t" state="="/>
+    <connection from="edge_84" to="edge_40" fromLane="0" toLane="0" via=":kilkenny_10_0" dir="R" state="="/>
+    <connection from="edge_84" to="edge_38" fromLane="0" toLane="0" via=":kilkenny_11_0" dir="R" state="="/>
+    <connection from="edge_84" to="edge_37" fromLane="0" toLane="0" via=":kilkenny_12_0" dir="s" state="="/>
+    <connection from="edge_84" to="edge_39" fromLane="0" toLane="0" via=":kilkenny_13_0" dir="l" state="="/>
+    <connection from="edge_84" to="edge_41" fromLane="0" toLane="0" via=":kilkenny_14_0" dir="t" state="="/>
+    <connection from="edge_85" to="edge_43" fromLane="0" toLane="0" via=":portlaoise_18_0" dir="r" state="M"/>
+    <connection from="edge_85" to="edge_47" fromLane="0" toLane="0" via=":portlaoise_19_0" dir="R" state="M"/>
+    <connection from="edge_85" to="edge_44" fromLane="0" toLane="0" via=":portlaoise_20_0" dir="s" state="="/>
+    <connection from="edge_85" to="edge_46" fromLane="0" toLane="0" via=":portlaoise_21_0" dir="l" state="="/>
+    <connection from="edge_85" to="edge_45" fromLane="0" toLane="0" via=":portlaoise_22_0" dir="l" state="="/>
+    <connection from="edge_85" to="edge_42" fromLane="0" toLane="0" via=":portlaoise_23_0" dir="t" state="="/>
+    <connection from="edge_86" to="edge_3" fromLane="0" toLane="0" via=":dublin_10_0" dir="r" state="M"/>
+    <connection from="edge_86" to="edge_2" fromLane="0" toLane="0" via=":dublin_11_0" dir="r" state="M"/>
+    <connection from="edge_86" to="edge_0" fromLane="0" toLane="0" via=":dublin_12_0" dir="r" state="M"/>
+    <connection from="edge_86" to="edge_1" fromLane="0" toLane="0" via=":dublin_13_0" dir="r" state="M"/>
+    <connection from="edge_86" to="edge_4" fromLane="0" toLane="0" via=":dublin_14_0" dir="l" state="="/>
+    <connection from="edge_87" to="edge_63" fromLane="0" toLane="0" via=":castlebar_6_0" dir="r" state="M"/>
+    <connection from="edge_87" to="edge_62" fromLane="0" toLane="1" via=":castlebar_7_0" dir="l" state="="/>
+    <connection from="edge_87" to="edge_61" fromLane="0" toLane="0" via=":castlebar_8_0" dir="t" state="="/>
+    <connection from="edge_88" to="edge_80" fromLane="0" toLane="0" via=":omagh_2_0" dir="l" state="="/>
+    <connection from="edge_89" to="edge_31" fromLane="0" toLane="0" via=":galway_2_0" dir="r" state="="/>
+    <connection from="edge_9" to="edge_73" fromLane="0" toLane="0" via=":roscommon_0_0" dir="r" state="M"/>
+    <connection from="edge_9" to="edge_74" fromLane="0" toLane="0" via=":roscommon_1_0" dir="R" state="M"/>
+    <connection from="edge_90" to="edge_68" fromLane="0" toLane="0" via=":monaghan_5_0" dir="r" state="M"/>
+    <connection from="edge_90" to="edge_69" fromLane="0" toLane="0" via=":monaghan_6_0" dir="L" state="="/>
+    <connection from="edge_90" to="edge_67" fromLane="0" toLane="0" via=":monaghan_7_0" dir="L" state="="/>
+    <connection from="edge_90" to="edge_66" fromLane="0" toLane="0" via=":monaghan_8_0" dir="l" state="="/>
+    <connection from="edge_91" to="edge_46" fromLane="0" toLane="0" via=":portlaoise_6_0" dir="r" state="="/>
+    <connection from="edge_91" to="edge_45" fromLane="0" toLane="0" via=":portlaoise_7_0" dir="r" state="="/>
+    <connection from="edge_91" to="edge_42" fromLane="0" toLane="0" via=":portlaoise_8_0" dir="R" state="="/>
+    <connection from="edge_91" to="edge_43" fromLane="0" toLane="0" via=":portlaoise_9_0" dir="s" state="="/>
+    <connection from="edge_91" to="edge_47" fromLane="0" toLane="0" via=":portlaoise_10_0" dir="L" state="="/>
+    <connection from="edge_91" to="edge_44" fromLane="0" toLane="0" via=":portlaoise_11_0" dir="l" state="="/>
+    <connection from="edge_92" to="edge_80" fromLane="0" toLane="0" via=":omagh_0_0" dir="l" state="="/>
+
+    <connection from=":antrim_0" to="edge_5" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":antrim_1" to="edge_6" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":antrim_2" to="edge_5" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":antrim_3" to="edge_6" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":athlone_0" to="edge_87" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":athlone_1" to="edge_85" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":athlone_2" to="edge_86" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":belfast_0" to="edge_27" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":belfast_1" to="edge_26" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":belfast_2" to="edge_29" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":belfast_3" to="edge_25" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":belfast_4" to="edge_28" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":belfast_5" to="edge_27" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":belfast_6" to="edge_26" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":belfast_7" to="edge_29" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":belfast_8" to="edge_25" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":belfast_9" to="edge_28" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":bray_0" to="edge_90" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":bray_1" to="edge_92" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":bray_2" to="edge_91" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":bray_3" to="edge_91" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":bray_4" to="edge_90" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":bray_5" to="edge_92" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":bray_6" to="edge_91" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":bray_7" to="edge_90" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":bray_8" to="edge_92" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":carlow_0" to="edge_9" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":carlow_1" to="edge_12" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":carlow_2" to="edge_11" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":carlow_3" to="edge_10" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":carlow_4" to="edge_9" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":carlow_5" to="edge_12" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":carlow_6" to="edge_11" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":carlow_7" to="edge_10" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":carrick_0" to="edge_48" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":carrick_1" to="edge_48" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":castlebar_0" to="edge_62" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":castlebar_1" to="edge_61" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":castlebar_2" to="edge_63" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":castlebar_3" to="edge_62" fromLane="0" toLane="1" dir="L" state="M"/>
+    <connection from=":castlebar_4" to="edge_61" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":castlebar_5" to="edge_63" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":castlebar_6" to="edge_63" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":castlebar_7" to="edge_62" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":castlebar_8" to="edge_61" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":cavan_0" to="edge_14" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":cavan_1" to="edge_13" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":cavan_2" to="edge_14" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":cavan_3" to="edge_13" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":cavan_4" to="edge_14" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":cavan_5" to="edge_13" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":cavan_6" to="edge_14" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":cavan_7" to="edge_13" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":clonmel_0" to="edge_77" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":clonmel_1" to="edge_78" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":clonmel_2" to="edge_79" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":clonmel_3" to="edge_77" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":clonmel_4" to="edge_78" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":clonmel_5" to="edge_79" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":cork_0" to="edge_18" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":cork_1" to="edge_19" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":cork_2" to="edge_19" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":cork_3" to="edge_18" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":cork_4" to="edge_18" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":cork_5" to="edge_19" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":craigavon_0" to="edge_7" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":craigavon_1" to="edge_8" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":craigavon_2" to="edge_7" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":craigavon_3" to="edge_8" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":craigavon_4" to="edge_8" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":craigavon_5" to="edge_7" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":derry_0" to="edge_20" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":derry_1" to="edge_21" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":derry_2" to="edge_22" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":derry_3" to="edge_20" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":derry_4" to="edge_21" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":derry_5" to="edge_22" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":derry_6" to="edge_22" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":derry_7" to="edge_20" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":derry_8" to="edge_21" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":derry_9" to="edge_21" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":derry_10" to="edge_22" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":derry_11" to="edge_20" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_0" to="edge_4" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_1" to="edge_3" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":dublin_2" to="edge_2" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":dublin_3" to="edge_0" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":dublin_4" to="edge_1" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":dublin_5" to="edge_1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_6" to="edge_4" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":dublin_7" to="edge_3" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":dublin_8" to="edge_2" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":dublin_9" to="edge_0" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":dublin_10" to="edge_3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_11" to="edge_2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_12" to="edge_0" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_13" to="edge_1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_14" to="edge_4" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":dublin_15" to="edge_3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_16" to="edge_2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_17" to="edge_0" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_18" to="edge_1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dublin_19" to="edge_4" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":dundalk_0" to="edge_59" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":dundalk_1" to="edge_60" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":ennis_0" to="edge_15" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_1" to="edge_16" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":ennis_2" to="edge_17" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":ennis_3" to="edge_17" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_4" to="edge_15" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_5" to="edge_16" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":ennis_6" to="edge_17" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_7" to="edge_15" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_8" to="edge_16" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":ennis_9" to="edge_17" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_10" to="edge_15" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_11" to="edge_16" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":ennis_12" to="edge_16" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_13" to="edge_17" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_14" to="edge_15" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":ennis_15" to="edge_16" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ennis_16" to="edge_17" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":ennis_17" to="edge_15" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":ennis_18" to="edge_16" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":ennis_19" to="edge_17" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":ennis_20" to="edge_15" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":enniskillen_0" to="edge_30" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":enniskillen_1" to="edge_30" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":galway_0" to="edge_31" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":galway_1" to="edge_31" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":galway_2" to="edge_31" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":kilkenny_0" to="edge_40" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":kilkenny_1" to="edge_38" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":kilkenny_2" to="edge_37" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":kilkenny_3" to="edge_39" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":kilkenny_4" to="edge_41" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":kilkenny_5" to="edge_40" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":kilkenny_6" to="edge_38" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":kilkenny_7" to="edge_37" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":kilkenny_8" to="edge_39" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":kilkenny_9" to="edge_41" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":kilkenny_10" to="edge_40" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":kilkenny_11" to="edge_38" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":kilkenny_12" to="edge_37" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":kilkenny_13" to="edge_39" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":kilkenny_14" to="edge_41" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":letterkenny_0" to="edge_24" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":letterkenny_1" to="edge_23" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":letterkenny_2" to="edge_24" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":letterkenny_3" to="edge_23" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":limerick_0" to="edge_51" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":limerick_1" to="edge_52" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":limerick_2" to="edge_50" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":limerick_3" to="edge_54" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":limerick_4" to="edge_53" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":limerick_5" to="edge_49" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":limerick_6" to="edge_53" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":limerick_7" to="edge_49" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":limerick_8" to="edge_51" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":limerick_9" to="edge_52" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":limerick_10" to="edge_50" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":limerick_11" to="edge_54" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":longford_0" to="edge_57" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":longford_1" to="edge_58" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":longford_2" to="edge_55" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":longford_3" to="edge_56" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":monaghan_0" to="edge_69" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":monaghan_1" to="edge_67" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":monaghan_1" to="edge_67" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":monaghan_3" to="edge_66" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":monaghan_4" to="edge_68" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":monaghan_5" to="edge_68" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":monaghan_6" to="edge_69" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":monaghan_7" to="edge_67" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":monaghan_8" to="edge_66" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":monaghan_9" to="edge_66" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":monaghan_10" to="edge_68" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":monaghan_11" to="edge_69" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":monaghan_12" to="edge_67" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":monaghan_13" to="edge_66" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":monaghan_14" to="edge_68" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":monaghan_15" to="edge_69" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":monaghan_16" to="edge_67" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":naas_0" to="edge_35" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":naas_1" to="edge_36" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":naas_2" to="edge_36" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":naas_3" to="edge_35" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":navan_0" to="edge_64" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":navan_1" to="edge_65" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":omagh_0" to="edge_80" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":omagh_1" to="edge_80" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":omagh_2" to="edge_80" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":omagh_3" to="edge_80" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":omagh_4" to="edge_80" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":portlaoise_0" to="edge_46" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":portlaoise_1" to="edge_45" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":portlaoise_2" to="edge_42" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":portlaoise_3" to="edge_43" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":portlaoise_4" to="edge_47" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":portlaoise_5" to="edge_44" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":portlaoise_6" to="edge_46" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":portlaoise_7" to="edge_45" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":portlaoise_8" to="edge_42" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":portlaoise_9" to="edge_43" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":portlaoise_10" to="edge_47" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":portlaoise_11" to="edge_44" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":portlaoise_12" to="edge_44" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":portlaoise_13" to="edge_46" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":portlaoise_14" to="edge_45" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":portlaoise_15" to="edge_42" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":portlaoise_16" to="edge_43" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":portlaoise_17" to="edge_47" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":portlaoise_18" to="edge_43" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":portlaoise_19" to="edge_47" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":portlaoise_20" to="edge_44" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":portlaoise_21" to="edge_46" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":portlaoise_22" to="edge_45" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":portlaoise_23" to="edge_42" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":portlaoise_24" to="edge_42" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":portlaoise_25" to="edge_43" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":portlaoise_26" to="edge_47" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":portlaoise_27" to="edge_44" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":portlaoise_28" to="edge_46" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":portlaoise_29" to="edge_45" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":roscommon_0" to="edge_73" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":roscommon_1" to="edge_74" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":roscommon_2" to="edge_73" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":roscommon_3" to="edge_74" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":sligo_0" to="edge_75" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":sligo_1" to="edge_76" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":sligo_2" to="edge_75" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":sligo_3" to="edge_76" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":tralee_0" to="edge_33" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tralee_1" to="edge_32" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":tralee_2" to="edge_34" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":tralee_3" to="edge_33" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tralee_4" to="edge_32" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":tralee_5" to="edge_34" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":tralee_6" to="edge_34" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tralee_7" to="edge_33" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tralee_8" to="edge_32" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":tralee_9" to="edge_34" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tralee_10" to="edge_33" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tralee_11" to="edge_32" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":tralee_12" to="edge_32" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tralee_13" to="edge_34" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tralee_14" to="edge_33" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tullamore_0" to="edge_71" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tullamore_1" to="edge_70" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tullamore_2" to="edge_72" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":tullamore_3" to="edge_71" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":tullamore_4" to="edge_70" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":tullamore_5" to="edge_72" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":tullamore_6" to="edge_72" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":tullamore_7" to="edge_71" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":tullamore_8" to="edge_70" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":waterford_0" to="edge_84" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_1" to="edge_83" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_2" to="edge_82" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_3" to="edge_81" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":waterford_4" to="edge_84" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_5" to="edge_83" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_6" to="edge_82" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":waterford_7" to="edge_81" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":waterford_8" to="edge_84" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_9" to="edge_83" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_10" to="edge_82" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":waterford_11" to="edge_81" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":waterford_12" to="edge_82" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_13" to="edge_81" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":waterford_14" to="edge_84" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":waterford_15" to="edge_83" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":waterford_16" to="edge_83" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_17" to="edge_82" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_18" to="edge_81" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":waterford_19" to="edge_84" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":waterford_20" to="edge_84" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_21" to="edge_83" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_22" to="edge_82" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":waterford_23" to="edge_81" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":wexford_0" to="edge_89" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":wexford_1" to="edge_88" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":wexford_2" to="edge_89" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":wexford_3" to="edge_88" fromLane="0" toLane="0" dir="l" state="M"/>
+
+</net>
